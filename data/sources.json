@@ -57,7 +57,7 @@
       "Part segmentation",
       "Camera calibration"
     ],
-    "note": "RGB archives downloaded from a mirror and checked against published checksums; pose supplement recovered.",
+    "note": "RGB archives downloaded from a mirror and checked against published checksums; pose supplement recovered. The separate official segmentation/tracking download returned 404.",
     "license": "See original source terms",
     "view": "Human recordings",
     "local": {

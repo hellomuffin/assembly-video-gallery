@@ -659,7 +659,13 @@
       "media": "media/struggle-1.mp4",
       "poster": "media/struggle-1.jpg",
       "record": "records/struggle-1.json",
-      "sha256": "9a053d16d1d3cf87fca936e03f6feeb3eb03d1f4addad11aa142485650c98733"
+      "sha256": "9a053d16d1d3cf87fca936e03f6feeb3eb03d1f4addad11aa142485650c98733",
+      "label_summary": {
+        "Expert rating (GA)": "slightly non-struggle",
+        "Crowd mode": "definitely non-struggle",
+        "Crowd votes": "1: 13, 2: 4, 3: 0, 4: 3",
+        "Scale": "1 = definitely non-struggle; 4 = definitely struggle. These labels apply to the whole clip."
+      }
     },
     {
       "id": "struggle-2",
@@ -684,7 +690,13 @@
       "media": "media/struggle-2.mp4",
       "poster": "media/struggle-2.jpg",
       "record": "records/struggle-2.json",
-      "sha256": "63dd480450505e740290dbb16d31b1b0875a226f503f7c4065fd9733d39f5fb4"
+      "sha256": "63dd480450505e740290dbb16d31b1b0875a226f503f7c4065fd9733d39f5fb4",
+      "label_summary": {
+        "Expert rating (GA)": "slightly non-struggle",
+        "Crowd mode": "slightly non-struggle",
+        "Crowd votes": "1: 3, 2: 8, 3: 7, 4: 2",
+        "Scale": "1 = definitely non-struggle; 4 = definitely struggle. These labels apply to the whole clip."
+      }
     },
     {
       "id": "impact-1",
