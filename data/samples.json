@@ -1,0 +1,1222 @@
+{
+  "updated": "2026-10-02",
+  "census_timestamp": "2026-10-02T14:47:48Z",
+  "samples": [
+    {
+      "id": "imaw-1",
+      "dataset": "imaw",
+      "title": "BEKVAM 3017 · manual-aligned assembly",
+      "types": [
+        "Furniture"
+      ],
+      "view": "Third person / tutorial",
+      "annotations": [
+        "Timed steps",
+        "Part masks",
+        "Manuals",
+        "Connection graphs"
+      ],
+      "start": 73.3,
+      "duration": 22.0,
+      "events": [
+        {
+          "start": 73.3,
+          "end": 95.3,
+          "kind": "Manual step",
+          "text": "Manual step 0 · parts 0, 2, 3"
+        },
+        {
+          "start": 73.3,
+          "end": 80.14,
+          "kind": "Part grouping",
+          "text": "Parts / assemblies: 0, 2"
+        },
+        {
+          "start": 80.18,
+          "end": 83.33,
+          "kind": "Part grouping",
+          "text": "Parts / assemblies: 0,2"
+        },
+        {
+          "start": 83.37,
+          "end": 86.56,
+          "kind": "Part grouping",
+          "text": "Parts / assemblies: 0,2, 3"
+        },
+        {
+          "start": 86.6,
+          "end": 95.3,
+          "kind": "Part grouping",
+          "text": "Parts / assemblies: 0,2,3"
+        }
+      ],
+      "note": "Step names and part IDs come from the release; no generated instruction text.",
+      "origin": "https://www.youtube.com/watch?v=4QA9SYic4aE",
+      "source_record": {
+        "source": "imaw",
+        "file": "raw/imaw/video/Chair/bekvam_3017/4QA9SYic4aE/4QA9SYic4aE.mp4",
+        "bytes": 57075676
+      },
+      "media": "media/imaw-1.mp4",
+      "poster": "media/imaw-1.jpg",
+      "record": "records/imaw-1.json",
+      "spatial": "media/imaw-1-spatial.jpg",
+      "spatial_time": 84.37,
+      "spatial_note": "Original part masks over the matching source frame; colors distinguish source part IDs.",
+      "sha256": "fb8c7d2ae58dbdc51988331c1d5d73074e8e76627bd32e7f5a75991111a6fa97",
+      "spatial_record": "records/imaw-1-spatial.json"
+    },
+    {
+      "id": "imaw-2",
+      "dataset": "imaw",
+      "title": "GLADOM · manual-aligned assembly",
+      "types": [
+        "Furniture"
+      ],
+      "view": "Third person / tutorial",
+      "annotations": [
+        "Timed steps",
+        "Part masks",
+        "Manuals",
+        "Connection graphs"
+      ],
+      "start": 64.49,
+      "duration": 35.0,
+      "events": [
+        {
+          "start": 64.49,
+          "end": 134.7,
+          "kind": "Manual step",
+          "text": "Manual step 0 · parts 0, 3"
+        },
+        {
+          "start": 64.49,
+          "end": 103.56,
+          "kind": "Part grouping",
+          "text": "Parts / assemblies: 0, 3"
+        }
+      ],
+      "note": "Step names and part IDs come from the release; no generated instruction text.",
+      "origin": "https://www.youtube.com/watch?v=swf3wH3ApfU",
+      "source_record": {
+        "source": "imaw",
+        "file": "raw/imaw/video/Table/gladom/swf3wH3ApfU/swf3wH3ApfU.mp4",
+        "bytes": 51714916
+      },
+      "media": "media/imaw-2.mp4",
+      "poster": "media/imaw-2.jpg",
+      "record": "records/imaw-2.json",
+      "spatial": "media/imaw-2-spatial.jpg",
+      "spatial_time": 81.49,
+      "spatial_note": "Original part masks over the matching source frame; colors distinguish source part IDs.",
+      "sha256": "5299d4b8efe9293639bffa85ed6af22fb8b371e9ade97aef3614a0eb207efcac",
+      "spatial_record": "records/imaw-2-spatial.json"
+    },
+    {
+      "id": "holoassist_assembly-1",
+      "dataset": "holoassist_assembly",
+      "title": "z018 june 20 22 gladom assemble",
+      "types": [
+        "Furniture"
+      ],
+      "view": "Egocentric",
+      "annotations": [
+        "Timed actions",
+        "Dialogue",
+        "Mistakes / interventions"
+      ],
+      "start": 10,
+      "duration": 45.0,
+      "events": [
+        {
+          "start": 7.547,
+          "end": 123.914,
+          "kind": "Coarse grained action",
+          "text": "The student assembles the table legs.",
+          "correctness": ""
+        },
+        {
+          "start": 10.1,
+          "end": 12.6,
+          "kind": "Fine grained action",
+          "text": "lift none tray",
+          "correctness": "Correct Action"
+        },
+        {
+          "start": 13.867,
+          "end": 14.967,
+          "kind": "Fine grained action",
+          "text": "slide none hex_socket_head",
+          "correctness": "Correct Action"
+        },
+        {
+          "start": 15.1,
+          "end": 16.6,
+          "kind": "Fine grained action",
+          "text": "place none tray",
+          "correctness": "Correct Action"
+        },
+        {
+          "start": 17.2,
+          "end": 18.4,
+          "kind": "Fine grained action",
+          "text": "lift descriptive_- other circle",
+          "correctness": "Correct Action"
+        },
+        {
+          "start": 18.865,
+          "end": 19.665,
+          "kind": "Fine grained action",
+          "text": "place none circle",
+          "correctness": "Correct Action"
+        },
+        {
+          "start": 19.894,
+          "end": 20.3,
+          "kind": "Fine grained action",
+          "text": "approach none leg",
+          "correctness": "Correct Action"
+        },
+        {
+          "start": 20.355,
+          "end": 27.855,
+          "kind": "Fine grained action",
+          "text": "grab first leg",
+          "correctness": "Correct Action"
+        },
+        {
+          "start": 27.716,
+          "end": 32.9,
+          "kind": "Conversation",
+          "text": "So first put together the two legs and then cross each other.",
+          "correctness": ""
+        },
+        {
+          "start": 28.2,
+          "end": 29.7,
+          "kind": "Fine grained action",
+          "text": "inspect none leg",
+          "correctness": "Correct Action"
+        },
+        {
+          "start": 30.1,
+          "end": 33.3,
+          "kind": "Fine grained action",
+          "text": "stand first leg",
+          "correctness": "Correct Action"
+        },
+        {
+          "start": 34.2,
+          "end": 35.6,
+          "kind": "Fine grained action",
+          "text": "flip first leg",
+          "correctness": "Correct Action"
+        },
+        {
+          "start": 37.2,
+          "end": 38.5,
+          "kind": "Fine grained action",
+          "text": "grab second leg",
+          "correctness": "Correct Action"
+        },
+        {
+          "start": 39.1,
+          "end": 40.4,
+          "kind": "Fine grained action",
+          "text": "lift second leg",
+          "correctness": "Correct Action"
+        },
+        {
+          "start": 40.894,
+          "end": 41.741,
+          "kind": "Fine grained action",
+          "text": "place none leg",
+          "correctness": "Correct Action"
+        },
+        {
+          "start": 42.2,
+          "end": 51.8,
+          "kind": "Fine grained action",
+          "text": "screw none leg",
+          "correctness": "Correct Action"
+        },
+        {
+          "start": 46.2,
+          "end": 47.4,
+          "kind": "Conversation",
+          "text": "Yeah, exactly.",
+          "correctness": ""
+        },
+        {
+          "start": 52.1,
+          "end": 55.8,
+          "kind": "Fine grained action",
+          "text": "align metallic leg",
+          "correctness": "Correct Action"
+        }
+      ],
+      "note": "Original pitch-shifted audio. Fine/coarse actions and conversation can overlap.",
+      "origin": "https://github.com/holoassist/HoloAssist",
+      "source_record": {
+        "source": "holoassist_assembly",
+        "file": "raw/holoassist_assembly/z018-june-20-22-gladom_assemble/Export_py/Video_pitchshift.mp4",
+        "bytes": 46538863
+      },
+      "media": "media/holoassist_assembly-1.mp4",
+      "poster": "media/holoassist_assembly-1.jpg",
+      "record": "records/holoassist_assembly-1.json",
+      "sha256": "69048799a04de56ff8fb0a07fabf51e1f01ceef3cea11d483a3463c17fd9f152"
+    },
+    {
+      "id": "holoassist_assembly-2",
+      "dataset": "holoassist_assembly",
+      "title": "R193 25Oct GraphicsCard",
+      "types": [
+        "PC / electronics"
+      ],
+      "view": "Egocentric",
+      "annotations": [
+        "Timed actions",
+        "Dialogue",
+        "Mistakes / interventions"
+      ],
+      "start": 145,
+      "duration": 45.0,
+      "events": [
+        {
+          "start": 145.1,
+          "end": 181.1,
+          "kind": "Coarse grained action",
+          "text": "The student inserts the graphic cards.",
+          "correctness": ""
+        },
+        {
+          "start": 145.197,
+          "end": 147.864,
+          "kind": "Conversation",
+          "text": "Making sure the yellow space is down.",
+          "correctness": ""
+        },
+        {
+          "start": 146.1,
+          "end": 155.9,
+          "kind": "Fine grained action",
+          "text": "insert first graphic_card",
+          "correctness": "Correct Action"
+        },
+        {
+          "start": 156.1,
+          "end": 161.771,
+          "kind": "Fine grained action",
+          "text": "lock first graphic_card",
+          "correctness": "Correct Action"
+        },
+        {
+          "start": 161.818,
+          "end": 169.7,
+          "kind": "Fine grained action",
+          "text": "insert second graphic_card",
+          "correctness": "Correct Action"
+        },
+        {
+          "start": 169.63,
+          "end": 170.322,
+          "kind": "Conversation",
+          "text": "Perfect",
+          "correctness": ""
+        },
+        {
+          "start": 170.355,
+          "end": 177.244,
+          "kind": "Conversation",
+          "text": "and then for those release on the side of the green ones on the right, you're just gonna lash back up to security.",
+          "correctness": ""
+        },
+        {
+          "start": 176.2,
+          "end": 180.8,
+          "kind": "Fine grained action",
+          "text": "lock none computer_tab",
+          "correctness": "Correct Action"
+        },
+        {
+          "start": 179.526,
+          "end": 182.7,
+          "kind": "Conversation",
+          "text": "Perfect, and then you need to close the cap.",
+          "correctness": ""
+        },
+        {
+          "start": 183.154,
+          "end": 184.035,
+          "kind": "Conversation",
+          "text": "This cap?",
+          "correctness": ""
+        },
+        {
+          "start": 184.094,
+          "end": 184.694,
+          "kind": "Conversation",
+          "text": "Yup.",
+          "correctness": ""
+        },
+        {
+          "start": 184.727,
+          "end": 185.327,
+          "kind": "Conversation",
+          "text": "Okay.",
+          "correctness": ""
+        },
+        {
+          "start": 185.5,
+          "end": 219,
+          "kind": "Coarse grained action",
+          "text": "The student puts the cover on.",
+          "correctness": ""
+        },
+        {
+          "start": 186.2,
+          "end": 208.7,
+          "kind": "Fine grained action",
+          "text": "close none cover",
+          "correctness": "Correct Action"
+        }
+      ],
+      "note": "Original pitch-shifted audio. Fine/coarse actions and conversation can overlap.",
+      "origin": "https://github.com/holoassist/HoloAssist",
+      "source_record": {
+        "source": "holoassist_assembly",
+        "file": "raw/holoassist_assembly/R193-25Oct-GraphicsCard/Export_py/Video_pitchshift.mp4",
+        "bytes": 148598167
+      },
+      "media": "media/holoassist_assembly-2.mp4",
+      "poster": "media/holoassist_assembly-2.jpg",
+      "record": "records/holoassist_assembly-2.json",
+      "sha256": "15c2b397e07bd6769c29220c1f80048911a95178bfbc9d7f01c0549da1f6b23b"
+    },
+    {
+      "id": "holoassist_assembly-3",
+      "dataset": "holoassist_assembly",
+      "title": "z011 june 16 22 marius disassemble",
+      "types": [
+        "Furniture",
+        "Disassembly"
+      ],
+      "view": "Egocentric",
+      "annotations": [
+        "Timed actions",
+        "Dialogue",
+        "Mistakes / interventions"
+      ],
+      "start": 10,
+      "duration": 45.0,
+      "events": [
+        {
+          "start": 8.071,
+          "end": 10.535,
+          "kind": "Fine grained action",
+          "text": "flip none stool",
+          "correctness": "Correct Action"
+        },
+        {
+          "start": 8.075,
+          "end": 23.888,
+          "kind": "Coarse grained action",
+          "text": "The student unscrews the first screw.",
+          "correctness": ""
+        },
+        {
+          "start": 11.97,
+          "end": 12.614,
+          "kind": "Fine grained action",
+          "text": "grab none screwdriver",
+          "correctness": "Correct Action"
+        },
+        {
+          "start": 12.674,
+          "end": 13.596,
+          "kind": "Fine grained action",
+          "text": "lift none screwdriver",
+          "correctness": "Correct Action"
+        },
+        {
+          "start": 13.663,
+          "end": 16.6,
+          "kind": "Fine grained action",
+          "text": "insert first screwdriver",
+          "correctness": "Correct Action"
+        },
+        {
+          "start": 16.605,
+          "end": 21.082,
+          "kind": "Fine grained action",
+          "text": "unscrew first screw",
+          "correctness": "Correct Action"
+        },
+        {
+          "start": 21.121,
+          "end": 22.55,
+          "kind": "Fine grained action",
+          "text": "withdraw none screwdriver",
+          "correctness": "Correct Action"
+        },
+        {
+          "start": 21.804,
+          "end": 22.693,
+          "kind": "Fine grained action",
+          "text": "disassemble first screw",
+          "correctness": "Correct Action"
+        },
+        {
+          "start": 22.885,
+          "end": 23.9,
+          "kind": "Fine grained action",
+          "text": "place first screw",
+          "correctness": "Correct Action"
+        },
+        {
+          "start": 24.415,
+          "end": 40.589,
+          "kind": "Coarse grained action",
+          "text": "The student unscrews the second screw.",
+          "correctness": ""
+        },
+        {
+          "start": 24.416,
+          "end": 27.212,
+          "kind": "Fine grained action",
+          "text": "insert none screwdriver",
+          "correctness": "Correct Action"
+        },
+        {
+          "start": 27.296,
+          "end": 36.4,
+          "kind": "Fine grained action",
+          "text": "unscrew second screw",
+          "correctness": "Correct Action"
+        },
+        {
+          "start": 36.652,
+          "end": 38.4,
+          "kind": "Fine grained action",
+          "text": "disassemble second screw",
+          "correctness": "Correct Action"
+        },
+        {
+          "start": 38.158,
+          "end": 39.834,
+          "kind": "Fine grained action",
+          "text": "withdraw none screwdriver",
+          "correctness": "Correct Action"
+        },
+        {
+          "start": 39.458,
+          "end": 40.574,
+          "kind": "Fine grained action",
+          "text": "place second screw",
+          "correctness": "Correct Action"
+        },
+        {
+          "start": 41.269,
+          "end": 43.133,
+          "kind": "Fine grained action",
+          "text": "insert none screwdriver",
+          "correctness": "Correct Action"
+        },
+        {
+          "start": 41.275,
+          "end": 63.922,
+          "kind": "Coarse grained action",
+          "text": "The student unscrews the third screw.",
+          "correctness": ""
+        },
+        {
+          "start": 43.138,
+          "end": 61.102,
+          "kind": "Fine grained action",
+          "text": "unscrew third screw",
+          "correctness": "Correct Action"
+        },
+        {
+          "start": 46.394,
+          "end": 61.053,
+          "kind": "Fine grained action",
+          "text": "hold none washer",
+          "correctness": "Correct Action"
+        }
+      ],
+      "note": "Original pitch-shifted audio. Fine/coarse actions and conversation can overlap.",
+      "origin": "https://github.com/holoassist/HoloAssist",
+      "source_record": {
+        "source": "holoassist_assembly",
+        "file": "raw/holoassist_assembly/z011-june-16-22-marius_disassemble/Export_py/Video_pitchshift.mp4",
+        "bytes": 35096049
+      },
+      "media": "media/holoassist_assembly-3.mp4",
+      "poster": "media/holoassist_assembly-3.jpg",
+      "record": "records/holoassist_assembly-3.json",
+      "sha256": "ee24ba12d45b91f37d246b5ed5e4c0240145a1290b8aa8168df3d91b203e4d62"
+    },
+    {
+      "id": "egoprocel-1",
+      "dataset": "egoprocel",
+      "title": "Pc Assembly · Head_35",
+      "types": [
+        "PC / electronics"
+      ],
+      "view": "Egocentric",
+      "annotations": [
+        "Timed steps"
+      ],
+      "start": 18.333,
+      "duration": 35.0,
+      "events": [
+        {
+          "start": 18.33333333,
+          "end": 30.93333333,
+          "kind": "Key step",
+          "text": "1 Place the motherboard and fix it"
+        },
+        {
+          "start": 34.33333333,
+          "end": 71.4,
+          "kind": "Key step",
+          "text": "1 Place the motherboard and fix it"
+        }
+      ],
+      "note": "Original CSV times are in seconds; excerpt starts at the first labeled step.",
+      "origin": "https://cvit.iiit.ac.in/research/projects/cvit-projects/egoprocel",
+      "source_record": {
+        "source": "egoprocel",
+        "file": "raw/egoprocel/videos/pc_assembly/Head_35.mp4",
+        "bytes": 3769826527
+      },
+      "media": "media/egoprocel-1.mp4",
+      "poster": "media/egoprocel-1.jpg",
+      "record": "records/egoprocel-1.json",
+      "sha256": "c4db2e263c8af8016643ffc9b19ed5b9d4d1a85673803e9f0cc0310c6e1cdbed"
+    },
+    {
+      "id": "egoprocel-2",
+      "dataset": "egoprocel",
+      "title": "Pc Disassembly · Head_10",
+      "types": [
+        "PC / electronics",
+        "Disassembly"
+      ],
+      "view": "Egocentric",
+      "annotations": [
+        "Timed steps"
+      ],
+      "start": 15.0,
+      "duration": 35.0,
+      "events": [
+        {
+          "start": 15.0,
+          "end": 19.8,
+          "kind": "Key step",
+          "text": "1 Remove the cabinet cover"
+        },
+        {
+          "start": 22.6,
+          "end": 52.2,
+          "kind": "Key step",
+          "text": "2 Unplug the wires"
+        }
+      ],
+      "note": "Original CSV times are in seconds; excerpt starts at the first labeled step.",
+      "origin": "https://cvit.iiit.ac.in/research/projects/cvit-projects/egoprocel",
+      "source_record": {
+        "source": "egoprocel",
+        "file": "raw/egoprocel/videos/pc_disassembly/Head_10.mp4",
+        "bytes": 2244195012
+      },
+      "media": "media/egoprocel-2.mp4",
+      "poster": "media/egoprocel-2.jpg",
+      "record": "records/egoprocel-2.json",
+      "sha256": "883ea410103cc0b7ac0c44800feef918582359cd99fa9845d5d186f6df1aca17"
+    },
+    {
+      "id": "struggle-1",
+      "dataset": "struggle",
+      "title": "Pipes · struggle rating example",
+      "types": [
+        "Pipes"
+      ],
+      "view": "Egocentric",
+      "annotations": [
+        "Struggle ratings"
+      ],
+      "start": 0,
+      "duration": 10.0,
+      "events": [],
+      "note": "Clip-level ratings: original votes, mode and GA are shown without inventing a temporal localization.",
+      "origin": "https://huggingface.co/datasets/Shijia2025/Struggle-Dataset",
+      "source_record": {
+        "source": "struggle",
+        "file": "raw/struggle/Pipes-Struggle/10_00_0035.MP4"
+      },
+      "media": "media/struggle-1.mp4",
+      "poster": "media/struggle-1.jpg",
+      "record": "records/struggle-1.json",
+      "sha256": "9a053d16d1d3cf87fca936e03f6feeb3eb03d1f4addad11aa142485650c98733"
+    },
+    {
+      "id": "struggle-2",
+      "dataset": "struggle",
+      "title": "Tents / outdoor structures · struggle rating example",
+      "types": [
+        "Tents / outdoor structures"
+      ],
+      "view": "Egocentric",
+      "annotations": [
+        "Struggle ratings"
+      ],
+      "start": 0,
+      "duration": 10.0,
+      "events": [],
+      "note": "Clip-level ratings: original votes, mode and GA are shown without inventing a temporal localization.",
+      "origin": "https://huggingface.co/datasets/Shijia2025/Struggle-Dataset",
+      "source_record": {
+        "source": "struggle",
+        "file": "raw/struggle/Tent-Struggle/24_04_01.MP4"
+      },
+      "media": "media/struggle-2.mp4",
+      "poster": "media/struggle-2.jpg",
+      "record": "records/struggle-2.json",
+      "sha256": "63dd480450505e740290dbb16d31b1b0875a226f503f7c4065fd9733d39f5fb4"
+    },
+    {
+      "id": "impact-1",
+      "dataset": "impact",
+      "title": "Angle grinder · assembly",
+      "types": [
+        "Tools / appliances"
+      ],
+      "view": "Egocentric",
+      "annotations": [
+        "Timed actions",
+        "Mistakes / interventions"
+      ],
+      "start": 0.0,
+      "duration": 35.0,
+      "events": [
+        {
+          "start": 0.0,
+          "end": 2.768860353130016,
+          "kind": "Action",
+          "text": "retrieve rotor assembly"
+        },
+        {
+          "start": 2.8089887640449436,
+          "end": 4.454253611556982,
+          "kind": "Action",
+          "text": "retrieve gearbox housing"
+        },
+        {
+          "start": 4.454253611556982,
+          "end": 8.62760834670947,
+          "kind": "Action",
+          "text": "install rotor assembly"
+        },
+        {
+          "start": 8.62760834670947,
+          "end": 10.23274478330658,
+          "kind": "Action",
+          "text": "retrieve rotor assembly"
+        },
+        {
+          "start": 10.272873194221509,
+          "end": 18.539325842696627,
+          "kind": "Action",
+          "text": "install rotor assembly"
+        },
+        {
+          "start": 18.579454253611555,
+          "end": 19.9438202247191,
+          "kind": "Action",
+          "text": "retrieve rotor assembly"
+        },
+        {
+          "start": 19.9438202247191,
+          "end": 32.38362760834671,
+          "kind": "Action",
+          "text": "install rotor assembly"
+        },
+        {
+          "start": 32.42375601926164,
+          "end": 33.22632423756019,
+          "kind": "Action",
+          "text": "store tool"
+        },
+        {
+          "start": 33.266452648475116,
+          "end": 34.67094703049759,
+          "kind": "Action",
+          "text": "retrieve adapter plate"
+        },
+        {
+          "start": 34.71107544141252,
+          "end": 38.20224719101123,
+          "kind": "Action",
+          "text": "attach adapter plate"
+        }
+      ],
+      "note": "Attribution: IMPACT v1.1, Kratos-Wen/IMPACT. Cropped in time, resized and re-encoded; CC BY-NC-SA 4.0.",
+      "origin": "https://huggingface.co/datasets/KratosWen/IMPACT",
+      "source_record": {
+        "source": "impact",
+        "archive": "raw/impact/v1.1/videos/IMPACT-v1.1-videos-ego.zip",
+        "member": "IMPACT-v1.1/videos/ego/AL07EJ17_Reassembly_A_002_ego.mp4",
+        "bytes": 96402111
+      },
+      "media": "media/impact-1.mp4",
+      "poster": "media/impact-1.jpg",
+      "record": "records/impact-1.json",
+      "sha256": "9b7dd28a0517c00ed1358459762bc8b4caf74c628ef32c8fe464854b7bc2e612"
+    },
+    {
+      "id": "impact-2",
+      "dataset": "impact",
+      "title": "Angle grinder · disassembly",
+      "types": [
+        "Tools / appliances",
+        "Disassembly"
+      ],
+      "view": "Egocentric",
+      "annotations": [
+        "Timed actions",
+        "Mistakes / interventions"
+      ],
+      "start": 0.0,
+      "duration": 35.0,
+      "events": [
+        {
+          "start": 0.0,
+          "end": 2.768860353130016,
+          "kind": "Action",
+          "text": "start angle grinder assembly"
+        },
+        {
+          "start": 2.8089887640449436,
+          "end": 9.269662921348313,
+          "kind": "Action",
+          "text": "unscrew anti vibration handle"
+        },
+        {
+          "start": 9.309791332263242,
+          "end": 10.674157303370785,
+          "kind": "Action",
+          "text": "store anti vibration handle"
+        },
+        {
+          "start": 10.714285714285714,
+          "end": 25.280898876404493,
+          "kind": "Action",
+          "text": "remove locking lever assembly"
+        },
+        {
+          "start": 25.32102728731942,
+          "end": 26.845906902086675,
+          "kind": "Action",
+          "text": "null"
+        },
+        {
+          "start": 26.886035313001603,
+          "end": 30.256821829855536,
+          "kind": "Action",
+          "text": "store locking lever assembly"
+        },
+        {
+          "start": 30.296950240770464,
+          "end": 59.99197431781701,
+          "kind": "Action",
+          "text": "extract bearing plate assembly"
+        }
+      ],
+      "note": "Attribution: IMPACT v1.1, Kratos-Wen/IMPACT. Cropped in time, resized and re-encoded; CC BY-NC-SA 4.0.",
+      "origin": "https://huggingface.co/datasets/KratosWen/IMPACT",
+      "source_record": {
+        "source": "impact",
+        "archive": "raw/impact/v1.1/videos/IMPACT-v1.1-videos-ego.zip",
+        "member": "IMPACT-v1.1/videos/ego/AL07EJ17_Disassembly_A_001_ego.mp4",
+        "bytes": 76835742
+      },
+      "media": "media/impact-2.mp4",
+      "poster": "media/impact-2.jpg",
+      "record": "records/impact-2.json",
+      "sha256": "95c8145747d9835898e0d0c7caa04b5ff6dfec3e8bf09c9524471909fcd71e7a"
+    },
+    {
+      "id": "ikea_asm_mirror-1",
+      "dataset": "ikea_asm_mirror",
+      "title": "LACK TV bench · multi-view recording",
+      "types": [
+        "Furniture"
+      ],
+      "view": "Third person / multi-view",
+      "annotations": [],
+      "start": 30,
+      "duration": 25.0,
+      "events": [],
+      "note": "Media excerpt. Source annotation packages are collected, but no timed annotation has been joined to this particular preview.",
+      "origin": "https://ikeaasm.github.io/",
+      "source_record": {
+        "source": "ikea_asm_mirror",
+        "archive": "raw/ikea_asm_mirror/ikea_asm_RGB_Lack_TV_Bench_dev3.tar",
+        "member": "Lack_TV_Bench/0001_black_floor_01_01_2019_08_13_13_19/dev3/images/scan_video.avi",
+        "bytes": 165139898,
+        "offset": 1536
+      },
+      "media": "media/ikea_asm_mirror-1.mp4",
+      "poster": "media/ikea_asm_mirror-1.jpg",
+      "record": "records/ikea_asm_mirror-1.json",
+      "sha256": "78de6ef3fde67f12f3103c5c39ef19e0db373a29927edf2dbf84214bc7679195"
+    },
+    {
+      "id": "ikeafa-1",
+      "dataset": "ikeafa",
+      "title": "LACK · assembly recording",
+      "types": [
+        "Furniture"
+      ],
+      "view": "Third person",
+      "annotations": [],
+      "start": 15,
+      "duration": 25.0,
+      "events": [],
+      "note": "Media excerpt. Source annotation packages are collected, but no timed annotation has been joined to this particular preview.",
+      "origin": "https://tengdahan.github.io/ikea.html",
+      "source_record": {
+        "source": "ikeafa",
+        "archive": "raw/ikeafa/ikea-fa-release-data.zip",
+        "member": "ikea-fa-release-data/videos/2016-09-01/GOPR0120.MP4",
+        "bytes": 41707063
+      },
+      "media": "media/ikeafa-1.mp4",
+      "poster": "media/ikeafa-1.jpg",
+      "record": "records/ikeafa-1.json",
+      "sha256": "0dedec2d56e9d7426b4b21fe83a1d77d39c4e316288d280cd785e9b78a2926c9"
+    },
+    {
+      "id": "meccano_mirror-1",
+      "dataset": "meccano_mirror",
+      "title": "MECCANO motorcycle · hand / part interaction",
+      "types": [
+        "Toy mechanisms"
+      ],
+      "view": "Egocentric",
+      "annotations": [],
+      "start": 45,
+      "duration": 25.0,
+      "events": [],
+      "note": "Media excerpt. Source annotation packages are collected, but no timed annotation has been joined to this particular preview.",
+      "origin": "https://iplab.dmi.unict.it/MECCANO/",
+      "source_record": {
+        "source": "meccano_mirror",
+        "archive": "raw/meccano_mirror/MECCANO_RGB_Videos.zip",
+        "member": "MECCANO_RGB_Videos/0001.mp4",
+        "bytes": 527041467
+      },
+      "media": "media/meccano_mirror-1.mp4",
+      "poster": "media/meccano_mirror-1.jpg",
+      "record": "records/meccano_mirror-1.json",
+      "sha256": "6d0707adc6bd87ff142b90c0b7223e84ba5b794286c53a7630c3ed039051da8d"
+    },
+    {
+      "id": "briota_samples-1",
+      "dataset": "briota_samples",
+      "title": "BRIO toy assembly · public sample",
+      "types": [
+        "Toy mechanisms"
+      ],
+      "view": "Third person",
+      "annotations": [],
+      "start": 5,
+      "duration": 25.0,
+      "events": [],
+      "note": "Media excerpt. Source annotation packages are collected, but no timed annotation has been joined to this particular preview.",
+      "origin": "https://github.com/Tarmo-moriwaki/BRIO-TA_sample",
+      "source_record": {
+        "source": "briota_samples",
+        "file": "raw/briota_samples/sample_1.mp4",
+        "bytes": 4626123
+      },
+      "media": "media/briota_samples-1.mp4",
+      "poster": "media/briota_samples-1.jpg",
+      "record": "records/briota_samples-1.json",
+      "sha256": "49f8e6ede1ea2f18188a998fdf294bc6c45cdcdbd8b5ecf7bc41e402792d4aa8"
+    },
+    {
+      "id": "contact4d-1",
+      "dataset": "contact4d",
+      "title": "Furniture · synchronized ego / exo preview",
+      "types": [
+        "Furniture"
+      ],
+      "view": "Paired ego / exo",
+      "annotations": [],
+      "start": 0,
+      "duration": 15.0,
+      "events": [],
+      "note": "Derived preview from the local collection. Original spatial/state data are separate; this preview does not render those annotations.",
+      "origin": "https://jyuntins.github.io/Contact4D/",
+      "source_record": {
+        "source": "contact4d_preview",
+        "file": "raw/contact4d_preview/paired_views.mp4",
+        "bytes": 4860370
+      },
+      "media": "media/contact4d-1.mp4",
+      "poster": "media/contact4d-1.jpg",
+      "record": "records/contact4d-1.json",
+      "sha256": "ba15817158f2fb431ac2deeff44cd324dacac8bb9143865d1e2c8d08485220da"
+    },
+    {
+      "id": "furniturebench_lerobot-1",
+      "dataset": "furniturebench_lerobot",
+      "title": "Cabinet · robot teleoperation",
+      "types": [
+        "Furniture",
+        "Robot assembly"
+      ],
+      "view": "Robot cameras",
+      "annotations": [],
+      "start": 0,
+      "duration": 25.0,
+      "events": [],
+      "note": "Derived preview from the local collection. Original spatial/state data are separate; this preview does not render those annotations.",
+      "origin": "https://clvrai.github.io/furniture-bench/",
+      "source_record": {
+        "source": "furniturebench_robot_sample",
+        "file": "raw/furniturebench_robot_sample/cabinet_two_views.mp4",
+        "bytes": 26458949
+      },
+      "media": "media/furniturebench_lerobot-1.mp4",
+      "poster": "media/furniturebench_lerobot-1.jpg",
+      "record": "records/furniturebench_lerobot-1.json",
+      "sha256": "0a895cfd3e9e4f80b841675166799b9b552db027a3b9687c2ad529e1d778ef2b"
+    },
+    {
+      "id": "omniassistbench-1",
+      "dataset": "omniassistbench",
+      "title": "ha43JNTtus4-seg2 · step tracking",
+      "types": [
+        "Tents / outdoor structures"
+      ],
+      "view": "Tutorial / benchmark clip",
+      "annotations": [
+        "Procedural QA",
+        "Step tracking"
+      ],
+      "start": 0,
+      "duration": 9.08,
+      "events": [],
+      "note": "Question/answer applies to the original benchmark segment, which may be longer than this preview. No synthetic timing attached.",
+      "origin": "https://hellomuffin.github.io/streaming-assistant-datasets/omniassistbench/",
+      "source_record": {
+        "source": "omniassistbench",
+        "file": "raw/benchmark_assembly/omniassistbench/ha43JNTtus4-seg2.mp4"
+      },
+      "media": "media/omniassistbench-1.mp4",
+      "poster": "media/omniassistbench-1.jpg",
+      "record": "records/omniassistbench-1.json",
+      "qa": {
+        "video_name": "ha43JNTtus4-seg2",
+        "class": "step tracking",
+        "source": "Youtube",
+        "turns": "multi",
+        "question": null,
+        "gt_answer": "Assemble the tent poles.",
+        "key_points": "1.Assemble the tent poles.",
+        "example_video": "Pf2hmFeUsbY",
+        "example_text": null
+      },
+      "sha256": "1a81e007a0b4fd1b667ede2eaefcd8e050c67ed5e1dd2a36e9763e283ac5cfdc"
+    },
+    {
+      "id": "omniassistbench-2",
+      "dataset": "omniassistbench",
+      "title": "BZXuYWSinug-q1 · dynamic counting",
+      "types": [
+        "Toy mechanisms"
+      ],
+      "view": "Tutorial / benchmark clip",
+      "annotations": [
+        "Procedural QA",
+        "Proactive response"
+      ],
+      "start": 0,
+      "duration": 30.0,
+      "events": [],
+      "note": "Question/answer applies to the original benchmark segment, which may be longer than this preview. No synthetic timing attached.",
+      "origin": "https://hellomuffin.github.io/streaming-assistant-datasets/omniassistbench/",
+      "source_record": {
+        "source": "omniassistbench",
+        "file": "raw/benchmark_assembly/omniassistbench/BZXuYWSinug-q1.mp4"
+      },
+      "media": "media/omniassistbench-2.mp4",
+      "poster": "media/omniassistbench-2.jpg",
+      "record": "records/omniassistbench-2.json",
+      "qa": {
+        "video_name": "BZXuYWSinug-q1",
+        "class": "dynamic counting",
+        "source": "Youtube",
+        "turns": "single",
+        "question": "How many parts did he use to assemble one of Batman’s arms?",
+        "gt_answer": "He used 7 parts.",
+        "key_points": "1. 7.",
+        "example_video": null,
+        "example_text": null
+      },
+      "sha256": "515a4e6c2b2e62fe3343fdaecbd247a4d572048bfa762183132a5649ae70e881"
+    },
+    {
+      "id": "omniassistbench-3",
+      "dataset": "omniassistbench",
+      "title": "QMr2krLzpk0-seg4 · single event-triggered response",
+      "types": [
+        "Toy mechanisms"
+      ],
+      "view": "Tutorial / benchmark clip",
+      "annotations": [
+        "Procedural QA",
+        "Proactive response"
+      ],
+      "start": 0,
+      "duration": 30.0,
+      "events": [],
+      "note": "Question/answer applies to the original benchmark segment, which may be longer than this preview. No synthetic timing attached.",
+      "origin": "https://hellomuffin.github.io/streaming-assistant-datasets/omniassistbench/",
+      "source_record": {
+        "source": "omniassistbench",
+        "file": "raw/benchmark_assembly/omniassistbench/QMr2krLzpk0-seg4.mp4"
+      },
+      "media": "media/omniassistbench-3.mp4",
+      "poster": "media/omniassistbench-3.jpg",
+      "record": "records/omniassistbench-3.json",
+      "qa": {
+        "video_name": "QMr2krLzpk0-seg4",
+        "class": "single event-triggered response",
+        "source": "Youtube",
+        "turns": "multi",
+        "question": "Whenever the race car is fully assembled and shown from all angles, please tell me how many exhaust outlets it has on the rear.",
+        "gt_answer": "The race car has four exhaust outlets on its rear.",
+        "key_points": "1.Four.",
+        "example_video": null,
+        "example_text": null
+      },
+      "sha256": "ccdef54a969abb9815ede01de4992dda29313ca7e0612c8971374abf65dd3319"
+    },
+    {
+      "id": "flatpackbench-1",
+      "dataset": "flatpackbench",
+      "title": "GLADOM · temporal_ord",
+      "types": [
+        "Furniture"
+      ],
+      "view": "Tutorial / benchmark clip",
+      "annotations": [
+        "Procedural QA"
+      ],
+      "start": 0,
+      "duration": 25.0,
+      "events": [],
+      "note": "Underlying video preview; this does not reconstruct the question’s highlighted prompt image. Answer is in the original record. Video variants may be sampled/keyframe sequences.",
+      "origin": "https://huggingface.co/datasets/justachetan/flat-pack-bench",
+      "source_record": {
+        "source": "flatpackbench",
+        "file": "raw/flatpackbench/videos/raw/Table/gladom/U07JUw3m8_k/U07JUw3m8_k.mp4",
+        "bytes": 15279624
+      },
+      "media": "media/flatpackbench-1.mp4",
+      "poster": "media/flatpackbench-1.jpg",
+      "record": "records/flatpackbench-1.json",
+      "qa": {
+        "question": "Each option below lists a sequence of part connections. Which of these options gets the temporal ordering of the connections correct?\nOptions:\nA. Part 2 and Part 3, Part 0 and Part 3, Part 1 and Part 2\nB. Part 0 and Part 3, Part 1 and Part 2, Part 2 and Part 3\nC. Part 1 and Part 2, Part 0 and Part 2, Part 0 and Part 3\nD. Part 0 and Part 3, Part 0 and Part 2, Part 1 and Part 2\n",
+        "gt_answer": "D. Part 0 and Part 3, Part 0 and Part 2, Part 1 and Part 2"
+      },
+      "sha256": "1e2591a98372fd74e5a9b4be78b495ff65d22ecc201a5ccb49958d40538897f7"
+    },
+    {
+      "id": "flatpackbench-2",
+      "dataset": "flatpackbench",
+      "title": "BEKVAM_3017 · tracking",
+      "types": [
+        "Furniture"
+      ],
+      "view": "Tutorial / benchmark clip",
+      "annotations": [
+        "Procedural QA"
+      ],
+      "start": 0,
+      "duration": 25.0,
+      "events": [],
+      "note": "Underlying video preview; this does not reconstruct the question’s highlighted prompt image. Answer is in the original record. Video variants may be sampled/keyframe sequences.",
+      "origin": "https://huggingface.co/datasets/justachetan/flat-pack-bench",
+      "source_record": {
+        "source": "flatpackbench",
+        "file": "raw/flatpackbench/videos/raw/Chair/bekvam_3017/iH8Qsicas0I/iH8Qsicas0I.mp4",
+        "bytes": 51441231
+      },
+      "media": "media/flatpackbench-2.mp4",
+      "poster": "media/flatpackbench-2.jpg",
+      "record": "records/flatpackbench-2.json",
+      "qa": {
+        "question": "Identify which part in Image B matches Part 6 in Image A.\nOptions:\nA. Part 2\nB. Part 5\nC. Part 1\nD. Part 0\n",
+        "gt_answer": "A. Part 2"
+      },
+      "sha256": "a797d69b2804f230b7e33f83c1c6fb46b44b59ec409b06d09f6d9f545077349e"
+    },
+    {
+      "id": "industreal-1",
+      "dataset": "industreal",
+      "title": "Toy car · align, insert and fasten",
+      "types": [
+        "Toy mechanisms"
+      ],
+      "view": "Egocentric",
+      "annotations": [
+        "Frame-indexed actions"
+      ],
+      "start": 20,
+      "duration": 35.0,
+      "events": [],
+      "note": "Original action intervals use image-frame filenames. They are preserved in the record; this preview does not assume a frame-to-video time conversion.",
+      "origin": "https://timschoonbeek.github.io/industreal.html",
+      "source_record": {
+        "source": "industreal",
+        "archive": "raw/industreal/all_rgb_videos.zip",
+        "member": "01_assy_0_1.mp4",
+        "bytes": 52559562
+      },
+      "media": "media/industreal-1.mp4",
+      "poster": "media/industreal-1.jpg",
+      "record": "records/industreal-1.json",
+      "sha256": "0f296c8f279f0fc2358d1d2d55fdbcd568fd07d0c0d68f335870e0f7151384b8"
+    },
+    {
+      "id": "epictent-1",
+      "dataset": "epictent",
+      "title": "Tent pitching · eye-camera recording",
+      "types": [
+        "Tents / outdoor structures"
+      ],
+      "view": "Egocentric",
+      "annotations": [],
+      "start": 45,
+      "duration": 30.0,
+      "events": [],
+      "note": "Source includes synchronized GoPro and SMI timecodes. This preview retains the source recording and does not assume which annotation clock matches this SMI variant.",
+      "origin": "https://github.com/youngkyoonjang/EPIC_Tent2019",
+      "source_record": {
+        "source": "epictent",
+        "file": "raw/epictent/data/02/02.tent.120617.smi.avi",
+        "bytes": 652815840
+      },
+      "media": "media/epictent-1.mp4",
+      "poster": "media/epictent-1.jpg",
+      "record": "records/epictent-1.json",
+      "sha256": "9bd04ac21eeb0483d2e9d4894de48fd8d9c3e1e5f605711665f78e2c54986d64"
+    }
+  ]
+}
