@@ -103,6 +103,9 @@
       "scope": "Development continuation, reconstructed furniture variant, assisted grasp. Full assembly pending."
     }
   },
+  "renderer": "assembly/sim_v5/render.py",
+  "renderer_sha256": "14f47e97a831bd2292a93fcda0467628367afed11706e526c858a32a9024ba9d",
+  "rendering_correction": "Recorded cradles, end stops, hardware rests, and reconstructed visible joint relief are now included. Furniture and hand poses are unchanged.",
   "full_assembly_complete": false,
   "playback_speed": 4,
   "first_frame_time": 864.2399999836547,
