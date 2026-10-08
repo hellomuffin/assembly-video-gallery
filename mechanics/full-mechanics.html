@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Full assembly under gravity | Assembly</title><link rel="stylesheet" href="style.css"><style>video{display:block;width:100%;border-radius:14px;background:#111}.status{border:1px solid #b4ca9a;padding:20px;margin:24px 0}li{margin:8px 0}section{margin:36px 0}h2{margin-bottom:12px}.caption{font-size:14px;opacity:.8}</style></head>
+<body><main>
+<header><a href="../index.html">ASSEMBLY / VIDEO JOURNAL</a><a href="../data/index.html">Assembly data ↗</a></header>
+<p class="eyebrow">New · full mechanics replay</p><h1>Full assembly, tested under gravity.</h1>
+<p class="intro">From scattered components to an assembled stool that stands on its own. The full physical replay now passes the final fastening and floor-release checks.</p>
+<div class="facts"><span>11 screws remain clamped</span><span>4 feet on the floor</span><span>Gravity enabled</span></div>
+<p class="caption">Mechanics-only view: recorded hands and furniture. The unfinished human-body animation is omitted.</p>
+<section><h2>The complete sequence · 20×</h2><video controls playsinline preload="metadata" poster="full-mechanics.jpg" src="full-mechanics.mp4"></video><p class="caption">23 minutes 35 seconds of simulated assembly, condensed into an overview.</p><a class="button" href="full-mechanics.mp4">Open overview ↗</a></section>
+<section><h2>Set it down and let go · normal speed</h2><video controls playsinline preload="metadata" poster="full-mechanics-floor.jpg" src="full-mechanics-floor.mp4"></video><p class="caption">The stool reaches the floor, the hand releases it, and it settles under gravity.</p><a class="button" href="full-mechanics-floor.mp4">Open floor-release video ↗</a></section>
+<div class="status"><strong>All final mechanics checks passed.</strong><ul><li>All eleven screws retain clamp force after release.</li><li>No hand or fixture holds the stool at the end.</li><li>The stool settles upright with all four feet touching the floor.</li><li>Natural whole-body motion and the revised egocentric video are still in progress.</li></ul></div>
+<p><a class="button" href="last-screw.html">See the final screw at normal speed →</a></p>
+<details><summary>Simulation scope and evidence</summary><p>This is a complete mechanical replay using one unchanged physical model. Hands use assisted grasps, fixtures support the unfinished assembly, and threads and the powered driver use simplified models. Furniture gravity and collisions remain active. Passing these checks does not establish realistic full-human dynamics or a zero sim-to-real gap.</p><p>The earlier release attempt exposed two screws without retained clamp force. This replay includes their physical retightening before release; no final acceptance thresholds were relaxed.</p><p><a href="full-mechanics-validation.json">Final physical checks</a> · <a href="full-mechanics-manifest.json">Video provenance</a> · <a href="index.html">Earlier mechanics tests</a></p></details>
+<footer>All footage is simulated. Furniture geometry derived from <a href="https://github.com/IKEA/IKEA3DAssemblyDataset">IKEA3DAssemblyDataset</a>, CC BY-NC-SA 4.0.</footer>
+</main></body></html>
