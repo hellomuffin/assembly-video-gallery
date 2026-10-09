@@ -12,7 +12,6 @@
     "complete_action_coverage": true,
     "final_opposing_contact": true,
     "settled": true,
-    "no_final_external_wood_wrench": true,
     "native_joint_excursion_under_one_degree": true,
     "contact_penetration_under_two_mm": true
   },
@@ -31,5 +30,6 @@
     -0.00039533709164076003,
     0.00019857161951754125
   ],
-  "scope": "Audit a rail pickup/lift replay; this is not completed furniture assembly. Hand roots remain prescribed finite-force controllers; shared finger-base contact is an unvalidated tissue approximation."
+  "final_external_wrench_recorded": false,
+  "scope": "Audit a rail pickup/lift replay; this is not completed furniture assembly. Hand roots remain prescribed finite-force controllers; shared finger-base contact is an unvalidated tissue approximation. For legacy snapshots without xfrc_applied, this audit does not independently certify final applied wood forces; the lift runner checks them at runtime."
 }
