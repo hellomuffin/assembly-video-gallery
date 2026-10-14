@@ -1,0 +1,55 @@
+{
+  "passed": true,
+  "recordings": [
+    {
+      "source": "table_seed1",
+      "frames": 2081,
+      "constraint_mismatches": [],
+      "maximum_sampled_penetration_m": 7.513892873663195e-05,
+      "trajectory_sha256": "ca7273cc5f2a8eec87130ac77e5a6767380494c04794cac68f2c0ef34c472910"
+    },
+    {
+      "source": "table_seed7",
+      "frames": 2000,
+      "constraint_mismatches": [],
+      "maximum_sampled_penetration_m": 7.317622848456699e-05,
+      "trajectory_sha256": "fe58e30cdbcd2af5522701824bb041903a1255da3f4b7b17a1b30c9a3c4681f7"
+    },
+    {
+      "source": "shelf_seed1",
+      "frames": 2720,
+      "constraint_mismatches": [],
+      "maximum_sampled_penetration_m": 0.0017613284882501998,
+      "trajectory_sha256": "141d37fd5b1974df080287aa136a94892756590797610bd6032243e84a8b50f8"
+    },
+    {
+      "source": "shelf_seed7",
+      "frames": 2748,
+      "constraint_mismatches": [],
+      "maximum_sampled_penetration_m": 0.00033530355348203235,
+      "trajectory_sha256": "3d333ee14d66348dde9c2db107915a573d2942e5321c113fea61819a59112d66"
+    },
+    {
+      "source": "negative_partial",
+      "frames": 482,
+      "constraint_mismatches": [],
+      "maximum_sampled_penetration_m": 6.150667469510124e-06,
+      "trajectory_sha256": "e66bc36a9e8e4771f92f9b0b5a604a39db8a69a5c29eb8a9df7d19f6cdf12a3c"
+    },
+    {
+      "source": "positive_cantilever",
+      "frames": 620,
+      "constraint_mismatches": [],
+      "maximum_sampled_penetration_m": 3.461670851112597e-05,
+      "trajectory_sha256": "efa054eb745285c49e730e10289cc01b178a9f23d790efd2b2c2250accaa1f7a"
+    },
+    {
+      "source": "negative_loosened",
+      "frames": 653,
+      "constraint_mismatches": [],
+      "maximum_sampled_penetration_m": 3.461670851112597e-05,
+      "trajectory_sha256": "1aaad4d63cf39c8e8653ee72f24067eba9fc3b1ac7c78403d5d47733e986740a"
+    }
+  ],
+  "scope": "Checks recorded 25 Hz poses, actual active-constraint IDs, and sampled geometric penetration. Not a continuous collision or force audit."
+}

@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "checks": {
+    "misaligned_components_rejected": true,
+    "wrong_tool_location_rejected": true,
+    "wrong_tool_axis_rejected": true,
+    "nonfinite_turn_rejected": true,
+    "insufficient_torque_rejected": true,
+    "partial_fastening_released_beam_drop_m": 0.4996605887941213,
+    "loosening_released_beam_drop_m": 0.4512765062497382,
+    "table_seed1": 4,
+    "table_seed7": 4,
+    "shelf_seed1": 8,
+    "shelf_seed7": 8
+  },
+  "scope": "Two proxy furniture descriptions with randomized non-overlapping initial positions and yaw, a cantilever support test, and incorrect tool/fastening actions. Does not establish arbitrary-CAD generalization or human/tool collision realism."
+}
