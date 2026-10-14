@@ -1,0 +1,150 @@
+{
+  "passed": true,
+  "completion_and_recording_checks": {
+    "table_1": {
+      "passed": true,
+      "checks": {
+        "only_completed_fasteners_active": true,
+        "upright_tilt_under_2_degrees": true,
+        "resting_on_floor": true,
+        "settled": true,
+        "gravity_enabled": true,
+        "no_furniture_gravity_compensation": true
+      },
+      "upright_tilt_degrees": 0.0,
+      "orientation_error_including_yaw_degrees": 1.2864913725582312e-05,
+      "maximum_final_speed": 2.4366126837492126e-06,
+      "floor_clearance_m": -9.091003406180853e-07,
+      "trajectory_sha256": "e38b652679f30514aafdfad38dc337e089817f267f44b26ddbfb2b6444039382",
+      "scope": "Independent completion check. Upright means aligned with gravity; exact\nworld yaw is not required to assemble and stand a piece of furniture."
+    },
+    "table_7": {
+      "passed": true,
+      "checks": {
+        "only_completed_fasteners_active": true,
+        "upright_tilt_under_2_degrees": true,
+        "resting_on_floor": true,
+        "settled": true,
+        "gravity_enabled": true,
+        "no_furniture_gravity_compensation": true
+      },
+      "upright_tilt_degrees": 0.0,
+      "orientation_error_including_yaw_degrees": 1.2864916091942823e-05,
+      "maximum_final_speed": 2.4366126438252006e-06,
+      "floor_clearance_m": -9.091003490557803e-07,
+      "trajectory_sha256": "3ee8ff41ca8eaf0a76021cd973cc109b6d9ac128fadb32398a1b1eb8a268197d",
+      "scope": "Independent completion check. Upright means aligned with gravity; exact\nworld yaw is not required to assemble and stand a piece of furniture."
+    },
+    "table_recording_audit": {
+      "engaged_tool_tip_tolerance_m": 0.005,
+      "maximum_engaged_tool_tip_error_m": 0.0026725895286624115,
+      "clockwise_direction_errors": [],
+      "premature_fastening": [],
+      "constraint_mismatches": [],
+      "maximum_sampled_furniture_penetration_m": 0.00042925353743307926,
+      "worst_contact": {
+        "t": 94.44000000008688,
+        "geoms": [
+          "shape_top",
+          "shape_leg_2"
+        ]
+      },
+      "tool_intersection_frames_over_4mm": 0,
+      "worst_tool_intersections": [],
+      "trajectory_sha256": "e38b652679f30514aafdfad38dc337e089817f267f44b26ddbfb2b6444039382",
+      "scope": "25 Hz sampled replay audit; tool approximated by capsule samples; finger contact is intentionally not exact.",
+      "passed": true
+    },
+    "table_visual_reach": {
+      "max_shoulder_to_wrist_m": 0.625,
+      "arm_lengths_m": [
+        0.34,
+        0.31
+      ],
+      "passed": true,
+      "scope": "Kinematic arm reach, not whole-body balance or collision certification",
+      "hips_inside_assembly_footprint_during_tightening": 0
+    },
+    "shelf_1": {
+      "passed": true,
+      "checks": {
+        "only_completed_fasteners_active": true,
+        "upright_tilt_under_2_degrees": true,
+        "resting_on_floor": true,
+        "settled": true,
+        "gravity_enabled": true,
+        "no_furniture_gravity_compensation": true
+      },
+      "upright_tilt_degrees": 0.0001012072945854438,
+      "orientation_error_including_yaw_degrees": 5.80813541376046,
+      "maximum_final_speed": 7.231079283027499e-07,
+      "floor_clearance_m": -1.5665369191286693e-06,
+      "trajectory_sha256": "65adfa77d9366300f9910d418b9dc509593ec66552c74bef0ef133134edba706",
+      "scope": "Independent completion check. Upright means aligned with gravity; exact\nworld yaw is not required to assemble and stand a piece of furniture."
+    },
+    "shelf_7": {
+      "passed": true,
+      "checks": {
+        "only_completed_fasteners_active": true,
+        "upright_tilt_under_2_degrees": true,
+        "resting_on_floor": true,
+        "settled": true,
+        "gravity_enabled": true,
+        "no_furniture_gravity_compensation": true
+      },
+      "upright_tilt_degrees": 0.00010121089569183663,
+      "orientation_error_including_yaw_degrees": 5.806868790946802,
+      "maximum_final_speed": 8.159592315621953e-07,
+      "floor_clearance_m": -1.5665805793152465e-06,
+      "trajectory_sha256": "ef59196c7318ae38810d7cd180a4c29a876a1c055b769f1c27a7811d6f2228cd",
+      "scope": "Independent completion check. Upright means aligned with gravity; exact\nworld yaw is not required to assemble and stand a piece of furniture."
+    },
+    "shelf_recording_audit": {
+      "engaged_tool_tip_tolerance_m": 0.005,
+      "maximum_engaged_tool_tip_error_m": 0.0012092723019805727,
+      "clockwise_direction_errors": [],
+      "premature_fastening": [],
+      "constraint_mismatches": [],
+      "maximum_sampled_furniture_penetration_m": 0.0010733136846070796,
+      "worst_contact": {
+        "t": 183.00000000050974,
+        "geoms": [
+          "shape_back",
+          "shape_shelf_2"
+        ]
+      },
+      "tool_intersection_frames_over_4mm": 0,
+      "worst_tool_intersections": [],
+      "trajectory_sha256": "65adfa77d9366300f9910d418b9dc509593ec66552c74bef0ef133134edba706",
+      "scope": "25 Hz sampled replay audit; tool approximated by capsule samples; finger contact is intentionally not exact.",
+      "passed": true
+    },
+    "shelf_visual_reach": {
+      "max_shoulder_to_wrist_m": 0.6250000051491451,
+      "arm_lengths_m": [
+        0.34,
+        0.31
+      ],
+      "passed": true,
+      "scope": "Kinematic arm reach, not whole-body balance or collision certification",
+      "hips_inside_assembly_footprint_during_tightening": 0
+    }
+  },
+  "core_regression": {
+    "passed": true,
+    "checks": {
+      "misaligned_components_rejected": true,
+      "wrong_tool_location_rejected": true,
+      "wrong_tool_axis_rejected": true,
+      "nonfinite_turn_rejected": true,
+      "insufficient_torque_rejected": true,
+      "partial_fastening_released_beam_drop_m": 0.4996605856484691,
+      "loosening_released_beam_drop_m": 0.4512765062504232,
+      "table_seed1": 4,
+      "table_seed7": 4,
+      "shelf_seed1": 8,
+      "shelf_seed7": 8
+    },
+    "scope": "Two proxy furniture descriptions with randomized non-overlapping initial positions and yaw, a cantilever support test, and incorrect tool/fastening actions. Does not establish arbitrary-CAD generalization or human/tool collision realism."
+  }
+}
