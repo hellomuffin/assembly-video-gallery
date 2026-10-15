@@ -950,10 +950,10 @@
       ],
       "speed": 4,
       "trajectory_sha256": "e38b652679f30514aafdfad38dc337e089817f267f44b26ddbfb2b6444039382",
-      "visuals_sha256": "3a8aa25e1466f9e0a0703770b44f30feec4204a05610d1a57569d3478f9b2c64",
+      "visuals_sha256": "173285076eac6e920d63044009a09209eb7edfa1b3000efb8794e4ba8b2cf4e4",
       "file": "table-overview.mp4",
       "duration_seconds": 37.72,
-      "sha256": "5571a647e860bb9ea2f010142ca36261486cde8cff294119f559532d01a97511"
+      "sha256": "79f41f48a20e201ab4ecc6f8aa2e72a13b7bba00453c51491b8bd634cd32f370"
     },
     {
       "furniture": "table",
@@ -2847,10 +2847,10 @@
       ],
       "speed": 2,
       "trajectory_sha256": "e38b652679f30514aafdfad38dc337e089817f267f44b26ddbfb2b6444039382",
-      "visuals_sha256": "3a8aa25e1466f9e0a0703770b44f30feec4204a05610d1a57569d3478f9b2c64",
+      "visuals_sha256": "173285076eac6e920d63044009a09209eb7edfa1b3000efb8794e4ba8b2cf4e4",
       "file": "table-ego.mp4",
       "duration_seconds": 75.4,
-      "sha256": "babda73955e944a67e3b5cbec607bad2e2265ed8ae421b2bfde704d636d79fef"
+      "sha256": "c05aee66cf29dce8e12fc3515ebee89847f4878755fe0ec1569ae83aa2f2fd86"
     },
     {
       "furniture": "table",
@@ -3020,10 +3020,10 @@
       ],
       "speed": 1,
       "trajectory_sha256": "e38b652679f30514aafdfad38dc337e089817f267f44b26ddbfb2b6444039382",
-      "visuals_sha256": "3a8aa25e1466f9e0a0703770b44f30feec4204a05610d1a57569d3478f9b2c64",
+      "visuals_sha256": "173285076eac6e920d63044009a09209eb7edfa1b3000efb8794e4ba8b2cf4e4",
       "file": "table-detail.mp4",
       "duration_seconds": 6.44,
-      "sha256": "1f8cdcab7cffb428d07334262759c914cc7bcb570c2fcecd5a6eb25ee5429681"
+      "sha256": "d38481c82bd3cdb16243ffc2b8a615cbc86212cc44576b137c6206a96cd69a81"
     },
     {
       "furniture": "shelf",
@@ -4399,10 +4399,10 @@
       ],
       "speed": 4,
       "trajectory_sha256": "65adfa77d9366300f9910d418b9dc509593ec66552c74bef0ef133134edba706",
-      "visuals_sha256": "0a92928a5206f63c8465fd85a1645235884c890d2e6674992dcf5044ae45d526",
+      "visuals_sha256": "e625e69c9f2476669d0af7eaeaf877d7223db901b28c187ad86d8bb452a89d73",
       "file": "shelf-overview.mp4",
       "duration_seconds": 54.68,
-      "sha256": "c45fa1e4d612ace68be4b6cf907dfa96e7f2303ef12f0cda992c3d7381f5c4ac"
+      "sha256": "fb4c30576d08f6b7f20d361194062fd073da6f8826fce17baf3afa67febc412e"
     },
     {
       "furniture": "shelf",
@@ -4572,10 +4572,10 @@
       ],
       "speed": 1,
       "trajectory_sha256": "65adfa77d9366300f9910d418b9dc509593ec66552c74bef0ef133134edba706",
-      "visuals_sha256": "0a92928a5206f63c8465fd85a1645235884c890d2e6674992dcf5044ae45d526",
+      "visuals_sha256": "e625e69c9f2476669d0af7eaeaf877d7223db901b28c187ad86d8bb452a89d73",
       "file": "shelf-detail.mp4",
       "duration_seconds": 6.44,
-      "sha256": "79f144ddc205e18b40cf054b55fc24a211221709051d066500ab293ff390891c"
+      "sha256": "43aa13167c576291a43983ece0deca475e3e01c3a4bc320cc85afe53e8da29bb"
     },
     {
       "furniture": "shelf",
@@ -7317,10 +7317,10 @@
       ],
       "speed": 2,
       "trajectory_sha256": "65adfa77d9366300f9910d418b9dc509593ec66552c74bef0ef133134edba706",
-      "visuals_sha256": "0a92928a5206f63c8465fd85a1645235884c890d2e6674992dcf5044ae45d526",
+      "visuals_sha256": "e625e69c9f2476669d0af7eaeaf877d7223db901b28c187ad86d8bb452a89d73",
       "file": "shelf-ego.mp4",
       "duration_seconds": 109.32,
-      "sha256": "d25e970aa272211f86fd8bd38b7071b18541a6c350f95fc452043deae43cf183"
+      "sha256": "b873525b4b004ea20177271c28961e1790574d6e4d41ec4b79c52bf2b0a709cc"
     }
   ]
 }

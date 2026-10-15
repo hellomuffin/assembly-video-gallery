@@ -35,6 +35,48 @@
       "trajectory_sha256": "3ee8ff41ca8eaf0a76021cd973cc109b6d9ac128fadb32398a1b1eb8a268197d",
       "scope": "Independent completion check. Upright means aligned with gravity; exact\nworld yaw is not required to assemble and stand a piece of furniture."
     },
+    "table_leg_clearance": {
+      "passed": true,
+      "checks": {
+        "leg_envelopes_clear": true,
+        "trouser_mesh_clear": true,
+        "trousers_above_floor": true,
+        "fixed_limb_lengths": true,
+        "one_stationary_floor_foot": true
+      },
+      "frames": 3770,
+      "intermediate_capsule_samples": 11307,
+      "minimum_recorded_capsule_gap_m": 0.007999991026344994,
+      "worst_frame": 3542,
+      "minimum_trouser_height_m": 0.0188799907814048,
+      "maximum_limb_length_error_m": 4.440892098500626e-16,
+      "maximum_landmark_speed_m_s": {
+        "hip": 2.354834075397247,
+        "knee": 4.035453622223888,
+        "foot": 4.989189052790163
+      },
+      "envelope_failures": [],
+      "surface_failures": [],
+      "unsupported_transitions": [],
+      "scope": "Thigh/calf/shoe envelopes versus recorded furniture, mounting brackets and driver rack at 25 Hz plus three interpolated samples per interval; rendered trouser triangles at every recorded frame. Fixed leg lengths and alternating planted-foot support are kinematic checks, not balance or full-body dynamics certification.",
+      "trajectory_sha256": "e38b652679f30514aafdfad38dc337e089817f267f44b26ddbfb2b6444039382",
+      "visuals_sha256": "173285076eac6e920d63044009a09209eb7edfa1b3000efb8794e4ba8b2cf4e4",
+      "asset_sha256": "650b4fefe673089cd6376bb32799d674a4c80f32a84d687608d908ac16d82e1c",
+      "validation_source_sha256": {
+        "prepare_visuals.py": "7bf2f4f29ab3b41fee334d3ead2e3b9f48dafadadd79e240e018f6ca09a92e2a",
+        "plan_legs.py": "1aef84466fe7d6597d1ca1d1ecb2ce53e7dd178f0595f576d77c5df503ddb4d2",
+        "smooth_legs.py": "426697842e20c843f58972b12cc940c5685698369f4c53009d72dca806ea8033",
+        "repair_leg_transitions.py": "5d29d454fae4cabcfd211a3db673d061811cd760b12893921822c82aac0dc86b",
+        "leg_clearance.py": "97c9a3bf9ebf3e73bc222dc5103ea8c29c5c73a6e223cfb4bf8b7f770e41df5e",
+        "audit_leg_surface.py": "7ef8f0bb52da3359fb186a39ba204d4a608407782b570fae2d2dfedf0f3e8adf",
+        "validate_legs.py": "3dbb3f4deb8a08d91ad94dc3d6c27e3dd23b8043a6b806abd414d4b87eda636e",
+        "render.py": "0ad6e7bf7c6bc8cd117e1ec4705bb44f5c21297ce9ac91ce4e17a939d88e7d75",
+        "../sim_v5/human_surface.py": "61bd8c1209ec59aa3f49cf05d2ba1594149c541e27c8b9fc538a79f013a626d7",
+        "../sim_v5/assets/makehuman/base.obj": "8e761e6624b8f54536409135d1636da63b32486a90d4897f84e121d144f6fb4c",
+        "../sim_v5/assets/makehuman/default_weights.mhw": "0f3641d651ae3d00ad6b4ccee43142edb109d3bd909d27d9e4139ef1beed8625",
+        "../sim_v5/assets/makehuman/default.mhskel": "99f179bce0aa850b45d4191a1d0d234c5851f881c057439470ded3bddf729a24"
+      }
+    },
     "table_recording_audit": {
       "engaged_tool_tip_tolerance_m": 0.005,
       "maximum_engaged_tool_tip_error_m": 0.0026725895286624115,
@@ -61,9 +103,10 @@
         0.34,
         0.31
       ],
+      "hips_inside_assembly_footprint_during_tightening": 0,
       "passed": true,
-      "scope": "Kinematic arm reach, not whole-body balance or collision certification",
-      "hips_inside_assembly_footprint_during_tightening": 0
+      "leg_clearance_passed": true,
+      "scope": "Kinematic arm reach, tightening stance and audited leg/part clearance; not full-body balance or collision certification"
     },
     "shelf_1": {
       "passed": true,
@@ -99,6 +142,48 @@
       "trajectory_sha256": "ef59196c7318ae38810d7cd180a4c29a876a1c055b769f1c27a7811d6f2228cd",
       "scope": "Independent completion check. Upright means aligned with gravity; exact\nworld yaw is not required to assemble and stand a piece of furniture."
     },
+    "shelf_leg_clearance": {
+      "passed": true,
+      "checks": {
+        "leg_envelopes_clear": true,
+        "trouser_mesh_clear": true,
+        "trousers_above_floor": true,
+        "fixed_limb_lengths": true,
+        "one_stationary_floor_foot": true
+      },
+      "frames": 5466,
+      "intermediate_capsule_samples": 16395,
+      "minimum_recorded_capsule_gap_m": 0.009316361876265902,
+      "worst_frame": 1439,
+      "minimum_trouser_height_m": 0.018442407780414324,
+      "maximum_limb_length_error_m": 4.440892098500626e-16,
+      "maximum_landmark_speed_m_s": {
+        "hip": 2.6919199244479013,
+        "knee": 6.507750429330836,
+        "foot": 4.974842112129309
+      },
+      "envelope_failures": [],
+      "surface_failures": [],
+      "unsupported_transitions": [],
+      "scope": "Thigh/calf/shoe envelopes versus recorded furniture, mounting brackets and driver rack at 25 Hz plus three interpolated samples per interval; rendered trouser triangles at every recorded frame. Fixed leg lengths and alternating planted-foot support are kinematic checks, not balance or full-body dynamics certification.",
+      "trajectory_sha256": "65adfa77d9366300f9910d418b9dc509593ec66552c74bef0ef133134edba706",
+      "visuals_sha256": "e625e69c9f2476669d0af7eaeaf877d7223db901b28c187ad86d8bb452a89d73",
+      "asset_sha256": "7e99024d70019f4226a89951e56958ae5f576def8663717b90f533349c4fbe23",
+      "validation_source_sha256": {
+        "prepare_visuals.py": "7bf2f4f29ab3b41fee334d3ead2e3b9f48dafadadd79e240e018f6ca09a92e2a",
+        "plan_legs.py": "1aef84466fe7d6597d1ca1d1ecb2ce53e7dd178f0595f576d77c5df503ddb4d2",
+        "smooth_legs.py": "426697842e20c843f58972b12cc940c5685698369f4c53009d72dca806ea8033",
+        "repair_leg_transitions.py": "5d29d454fae4cabcfd211a3db673d061811cd760b12893921822c82aac0dc86b",
+        "leg_clearance.py": "97c9a3bf9ebf3e73bc222dc5103ea8c29c5c73a6e223cfb4bf8b7f770e41df5e",
+        "audit_leg_surface.py": "7ef8f0bb52da3359fb186a39ba204d4a608407782b570fae2d2dfedf0f3e8adf",
+        "validate_legs.py": "3dbb3f4deb8a08d91ad94dc3d6c27e3dd23b8043a6b806abd414d4b87eda636e",
+        "render.py": "0ad6e7bf7c6bc8cd117e1ec4705bb44f5c21297ce9ac91ce4e17a939d88e7d75",
+        "../sim_v5/human_surface.py": "61bd8c1209ec59aa3f49cf05d2ba1594149c541e27c8b9fc538a79f013a626d7",
+        "../sim_v5/assets/makehuman/base.obj": "8e761e6624b8f54536409135d1636da63b32486a90d4897f84e121d144f6fb4c",
+        "../sim_v5/assets/makehuman/default_weights.mhw": "0f3641d651ae3d00ad6b4ccee43142edb109d3bd909d27d9e4139ef1beed8625",
+        "../sim_v5/assets/makehuman/default.mhskel": "99f179bce0aa850b45d4191a1d0d234c5851f881c057439470ded3bddf729a24"
+      }
+    },
     "shelf_recording_audit": {
       "engaged_tool_tip_tolerance_m": 0.005,
       "maximum_engaged_tool_tip_error_m": 0.0012092723019805727,
@@ -126,8 +211,9 @@
         0.31
       ],
       "passed": true,
-      "scope": "Kinematic arm reach, not whole-body balance or collision certification",
-      "hips_inside_assembly_footprint_during_tightening": 0
+      "scope": "Kinematic arm reach, tightening stance and audited leg/part clearance; not full-body balance or collision certification",
+      "hips_inside_assembly_footprint_during_tightening": 0,
+      "leg_clearance_passed": true
     }
   },
   "core_regression": {
