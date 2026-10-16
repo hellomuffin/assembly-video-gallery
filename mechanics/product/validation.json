@@ -12,10 +12,10 @@
         "no_furniture_gravity_compensation": true
       },
       "upright_tilt_degrees": 0.0,
-      "orientation_error_including_yaw_degrees": 1.2864913725582312e-05,
-      "maximum_final_speed": 2.4366126837492126e-06,
-      "floor_clearance_m": -9.091003406180853e-07,
-      "trajectory_sha256": "e38b652679f30514aafdfad38dc337e089817f267f44b26ddbfb2b6444039382",
+      "orientation_error_including_yaw_degrees": 0.004723281512214404,
+      "maximum_final_speed": 3.88916554106298e-11,
+      "floor_clearance_m": -9.103370669782951e-07,
+      "trajectory_sha256": "42fe2dc36fa453549d4f457953223d95bfe335803ffea7708f7cc4c33cd83a3f",
       "scope": "Independent completion check. Upright means aligned with gravity; exact\nworld yaw is not required to assemble and stand a piece of furniture."
     },
     "table_7": {
@@ -29,84 +29,79 @@
         "no_furniture_gravity_compensation": true
       },
       "upright_tilt_degrees": 0.0,
-      "orientation_error_including_yaw_degrees": 1.2864916091942823e-05,
-      "maximum_final_speed": 2.4366126438252006e-06,
-      "floor_clearance_m": -9.091003490557803e-07,
-      "trajectory_sha256": "3ee8ff41ca8eaf0a76021cd973cc109b6d9ac128fadb32398a1b1eb8a268197d",
+      "orientation_error_including_yaw_degrees": 1.62256728375735e-07,
+      "maximum_final_speed": 9.009662800708367e-11,
+      "floor_clearance_m": -9.103370740837224e-07,
+      "trajectory_sha256": "d4a148e2c50c59e7622350c4842dfdb102d106b6bf4dcf944eb14602b1cedb7d",
       "scope": "Independent completion check. Upright means aligned with gravity; exact\nworld yaw is not required to assemble and stand a piece of furniture."
     },
-    "table_leg_clearance": {
+    "table_articulated_body": {
       "passed": true,
-      "checks": {
-        "leg_envelopes_clear": true,
-        "trouser_mesh_clear": true,
-        "trousers_above_floor": true,
-        "fixed_limb_lengths": true,
-        "one_stationary_floor_foot": true
-      },
-      "frames": 3770,
-      "intermediate_capsule_samples": 11307,
-      "minimum_recorded_capsule_gap_m": 0.007999991026344994,
-      "worst_frame": 3542,
-      "minimum_trouser_height_m": 0.0188799907814048,
-      "maximum_limb_length_error_m": 4.440892098500626e-16,
-      "maximum_landmark_speed_m_s": {
-        "hip": 2.354834075397247,
-        "knee": 4.035453622223888,
-        "foot": 4.989189052790163
-      },
-      "envelope_failures": [],
-      "surface_failures": [],
-      "unsupported_transitions": [],
-      "scope": "Thigh/calf/shoe envelopes versus recorded furniture, mounting brackets and driver rack at 25 Hz plus three interpolated samples per interval; rendered trouser triangles at every recorded frame. Fixed leg lengths and alternating planted-foot support are kinematic checks, not balance or full-body dynamics certification.",
-      "trajectory_sha256": "e38b652679f30514aafdfad38dc337e089817f267f44b26ddbfb2b6444039382",
-      "visuals_sha256": "173285076eac6e920d63044009a09209eb7edfa1b3000efb8794e4ba8b2cf4e4",
-      "asset_sha256": "650b4fefe673089cd6376bb32799d674a4c80f32a84d687608d908ac16d82e1c",
-      "validation_source_sha256": {
-        "prepare_visuals.py": "7bf2f4f29ab3b41fee334d3ead2e3b9f48dafadadd79e240e018f6ca09a92e2a",
-        "plan_legs.py": "1aef84466fe7d6597d1ca1d1ecb2ce53e7dd178f0595f576d77c5df503ddb4d2",
-        "smooth_legs.py": "426697842e20c843f58972b12cc940c5685698369f4c53009d72dca806ea8033",
-        "repair_leg_transitions.py": "5d29d454fae4cabcfd211a3db673d061811cd760b12893921822c82aac0dc86b",
-        "leg_clearance.py": "97c9a3bf9ebf3e73bc222dc5103ea8c29c5c73a6e223cfb4bf8b7f770e41df5e",
-        "audit_leg_surface.py": "7ef8f0bb52da3359fb186a39ba204d4a608407782b570fae2d2dfedf0f3e8adf",
-        "validate_legs.py": "3dbb3f4deb8a08d91ad94dc3d6c27e3dd23b8043a6b806abd414d4b87eda636e",
-        "render.py": "0ad6e7bf7c6bc8cd117e1ec4705bb44f5c21297ce9ac91ce4e17a939d88e7d75",
-        "../sim_v5/human_surface.py": "61bd8c1209ec59aa3f49cf05d2ba1594149c541e27c8b9fc538a79f013a626d7",
+      "checked_poses": 80541,
+      "failures": [],
+      "scope": "Independent acceptance gate for articulated candidate motions.\n\nThis checks kinematics and quasi-static support, not dynamically balanced human\ncontrol. Pose-solver success alone is never a clearance certificate.\n",
+      "recorded_execution": true,
+      "full_trajectory": true,
+      "source_sha256": {
+        "surface_constraints.py": "308944782f136645688ba2bc153eb6dc4ebe971a639678b68b23097ce50093a4",
+        "final_motion.py": "74f3e71eb26320b90ff10e9792d98fa3a88bda68aa0ebea7a1b1dad0ea7f0851",
+        "walk_route.py": "3304b2270869c77a43a1f1db884c7f8088e693d10fbb64824ade150b0a9e2ed0",
+        "contact_geometry.py": "98550f992a2db372bf08fc3731ffb1bde1ec92a0c8c668bccb0c34d01027330c",
+        "body_differentials.py": "7149f0f075f11534609ccf8ae2311a9238af597c66a715f91455184b8e778db8",
+        "grasp_sites.py": "e9d832e632eba824bb1a1b19e2b2a58a5e0afbc29fc911578a5de06f1dc677bf",
+        "body_geometry.py": "a961b82af0aaf60b383ec5f180a27b4b571374c14a533e7686ba75e4734b3d50",
+        "carried_body.py": "8ddda2b0dec9e396be06d3434bdc410b9833baa72648fb4a97f86bc71f14c0a0",
+        "embodied_world.py": "da5e31852249161f9091392e88f2162131f3d393e50f2996aa21f851ba45dc69",
+        "articulated_body.py": "0fbe0790538009b5f885145dab53cb6190cab3007996e3f7f2e3076f7d4a9ff8",
+        "plan_body_motion.py": "3599415f75bbc72b3638dcfe0a0027743e419d8c1ca7eeb3f2d2e38c8422972c",
+        "task_stance.py": "43b41c9610ed99ba9f4732f991c8bd55ba00e00434057af836d7c304b30a40a7",
+        "task_hands.py": "6c95c8993a0b30e3640482ec15dc6a41f2dd9955c89bb42fee82136d211d8e03",
+        "foot_contacts.py": "b46f8da2a7cb3a4ce96a07522d76c34c912253e6c2fdcb12e0669cdfdffe67c1",
+        "validate_body_motion.py": "190da93b33b9aad4d523e80c9e95519620254b553261307d5f265ca8b3e79176",
+        "prepare_visuals.py": "e2a9749bbd9d7bc757f92c7990a7d82a5d6b0364fec8d7f726470b81fd8b08f7",
+        "body_proof.py": "e041ac50807bae260ad13257d332de4e2146baff79ab0a08629e41158773a3ef",
+        "render.py": "cb8aa9191a413a88c03f80858d6a8f2ac58e42cbf10824944dc3e9c261d73e2b",
+        "leg_clearance.py": "fd68b8d20f99568345f8f42cb254e0881eac603c0432599f39545aa5952195de",
+        "audit_leg_surface.py": "d82b18297af3a785094e056e393da214d25016e9401db140fcf49c30b37f0345",
+        "../sim_v5/human_surface.py": "10331f1e93f7b70907a7072577a6f3e4e9f5f0db62224859597dc48acff5bedd",
         "../sim_v5/assets/makehuman/base.obj": "8e761e6624b8f54536409135d1636da63b32486a90d4897f84e121d144f6fb4c",
+        "../sim_v5/assets/makehuman/default.mhskel": "99f179bce0aa850b45d4191a1d0d234c5851f881c057439470ded3bddf729a24",
         "../sim_v5/assets/makehuman/default_weights.mhw": "0f3641d651ae3d00ad6b4ccee43142edb109d3bd909d27d9e4139ef1beed8625",
-        "../sim_v5/assets/makehuman/default.mhskel": "99f179bce0aa850b45d4191a1d0d234c5851f881c057439470ded3bddf729a24"
+        "assets/hand_poses.json": "b9a37e4c5f587c3398b98bbb3fed575ec7105b7aee25905b394d03da4c352d0b"
+      },
+      "data_sha256": {
+        "trajectory.json": "42fe2dc36fa453549d4f457953223d95bfe335803ffea7708f7cc4c33cd83a3f",
+        "asset.json": "e2c6312da7b9ff3330fa1872b0e62d7ff5b62d10f32430193402ec6eb2002c00",
+        "visuals.json": "3ce5306ae0f6f9bde2bb84da343c3ab03c0b22550062680cb565098cdb9d5d9d",
+        "result.json": "6ccc30be955c6f968a11887c7d1c4cec66140d8c99da3b76a231fca03a40643b"
       }
     },
     "table_recording_audit": {
       "engaged_tool_tip_tolerance_m": 0.005,
-      "maximum_engaged_tool_tip_error_m": 0.0026725895286624115,
+      "maximum_engaged_tool_tip_error_m": 3.814409728353124e-05,
       "clockwise_direction_errors": [],
       "premature_fastening": [],
       "constraint_mismatches": [],
-      "maximum_sampled_furniture_penetration_m": 0.00042925353743307926,
+      "maximum_sampled_furniture_penetration_m": 0.0001304899331100451,
       "worst_contact": {
-        "t": 94.44000000008688,
+        "t": 0.20000000000000015,
         "geoms": [
-          "shape_top",
-          "shape_leg_2"
+          "floor",
+          "shape_leg_0"
         ]
       },
       "tool_intersection_frames_over_4mm": 0,
+      "tool_floor_intersections_over_1mm": 0,
       "worst_tool_intersections": [],
-      "trajectory_sha256": "e38b652679f30514aafdfad38dc337e089817f267f44b26ddbfb2b6444039382",
-      "scope": "25 Hz sampled replay audit; tool approximated by capsule samples; finger contact is intentionally not exact.",
+      "trajectory_sha256": "42fe2dc36fa453549d4f457953223d95bfe335803ffea7708f7cc4c33cd83a3f",
+      "scope": "25 Hz sampled replay audit; tool capsule samples checked against parts, attached hardware, fixtures and floor; finger contact is intentionally not exact.",
       "passed": true
     },
     "table_visual_reach": {
-      "max_shoulder_to_wrist_m": 0.625,
-      "arm_lengths_m": [
-        0.34,
-        0.31
-      ],
-      "hips_inside_assembly_footprint_during_tightening": 0,
       "passed": true,
-      "leg_clearance_passed": true,
-      "scope": "Kinematic arm reach, tightening stance and audited leg/part clearance; not full-body balance or collision certification"
+      "scope": "Independent acceptance gate for articulated candidate motions.\n\nThis checks kinematics and quasi-static support, not dynamically balanced human\ncontrol. Pose-solver success alone is never a clearance certificate.\n",
+      "articulated_body": true,
+      "recorded_execution": true
     },
     "shelf_1": {
       "passed": true,
@@ -118,11 +113,11 @@
         "gravity_enabled": true,
         "no_furniture_gravity_compensation": true
       },
-      "upright_tilt_degrees": 0.0001012072945854438,
-      "orientation_error_including_yaw_degrees": 5.80813541376046,
-      "maximum_final_speed": 7.231079283027499e-07,
-      "floor_clearance_m": -1.5665369191286693e-06,
-      "trajectory_sha256": "65adfa77d9366300f9910d418b9dc509593ec66552c74bef0ef133134edba706",
+      "upright_tilt_degrees": 7.043503220744824e-05,
+      "orientation_error_including_yaw_degrees": 0.03671572419393311,
+      "maximum_final_speed": 1.3589245214993922e-11,
+      "floor_clearance_m": -7.853598547602481e-07,
+      "trajectory_sha256": "8c932bd360744f722c2a834b69f426bc92283114e0c00ab728540514a362cf1d",
       "scope": "Independent completion check. Upright means aligned with gravity; exact\nworld yaw is not required to assemble and stand a piece of furniture."
     },
     "shelf_7": {
@@ -135,85 +130,80 @@
         "gravity_enabled": true,
         "no_furniture_gravity_compensation": true
       },
-      "upright_tilt_degrees": 0.00010121089569183663,
-      "orientation_error_including_yaw_degrees": 5.806868790946802,
-      "maximum_final_speed": 8.159592315621953e-07,
-      "floor_clearance_m": -1.5665805793152465e-06,
-      "trajectory_sha256": "ef59196c7318ae38810d7cd180a4c29a876a1c055b769f1c27a7811d6f2228cd",
+      "upright_tilt_degrees": 7.044020649815917e-05,
+      "orientation_error_including_yaw_degrees": 0.03495801195844038,
+      "maximum_final_speed": 4.85784543510701e-11,
+      "floor_clearance_m": -7.853598548712704e-07,
+      "trajectory_sha256": "37f8732ad15077e13db6103a04f3880af104a8093ed69210786750e30147d30a",
       "scope": "Independent completion check. Upright means aligned with gravity; exact\nworld yaw is not required to assemble and stand a piece of furniture."
     },
-    "shelf_leg_clearance": {
+    "shelf_articulated_body": {
       "passed": true,
-      "checks": {
-        "leg_envelopes_clear": true,
-        "trouser_mesh_clear": true,
-        "trousers_above_floor": true,
-        "fixed_limb_lengths": true,
-        "one_stationary_floor_foot": true
-      },
-      "frames": 5466,
-      "intermediate_capsule_samples": 16395,
-      "minimum_recorded_capsule_gap_m": 0.009316361876265902,
-      "worst_frame": 1439,
-      "minimum_trouser_height_m": 0.018442407780414324,
-      "maximum_limb_length_error_m": 4.440892098500626e-16,
-      "maximum_landmark_speed_m_s": {
-        "hip": 2.6919199244479013,
-        "knee": 6.507750429330836,
-        "foot": 4.974842112129309
-      },
-      "envelope_failures": [],
-      "surface_failures": [],
-      "unsupported_transitions": [],
-      "scope": "Thigh/calf/shoe envelopes versus recorded furniture, mounting brackets and driver rack at 25 Hz plus three interpolated samples per interval; rendered trouser triangles at every recorded frame. Fixed leg lengths and alternating planted-foot support are kinematic checks, not balance or full-body dynamics certification.",
-      "trajectory_sha256": "65adfa77d9366300f9910d418b9dc509593ec66552c74bef0ef133134edba706",
-      "visuals_sha256": "e625e69c9f2476669d0af7eaeaf877d7223db901b28c187ad86d8bb452a89d73",
-      "asset_sha256": "7e99024d70019f4226a89951e56958ae5f576def8663717b90f533349c4fbe23",
-      "validation_source_sha256": {
-        "prepare_visuals.py": "7bf2f4f29ab3b41fee334d3ead2e3b9f48dafadadd79e240e018f6ca09a92e2a",
-        "plan_legs.py": "1aef84466fe7d6597d1ca1d1ecb2ce53e7dd178f0595f576d77c5df503ddb4d2",
-        "smooth_legs.py": "426697842e20c843f58972b12cc940c5685698369f4c53009d72dca806ea8033",
-        "repair_leg_transitions.py": "5d29d454fae4cabcfd211a3db673d061811cd760b12893921822c82aac0dc86b",
-        "leg_clearance.py": "97c9a3bf9ebf3e73bc222dc5103ea8c29c5c73a6e223cfb4bf8b7f770e41df5e",
-        "audit_leg_surface.py": "7ef8f0bb52da3359fb186a39ba204d4a608407782b570fae2d2dfedf0f3e8adf",
-        "validate_legs.py": "3dbb3f4deb8a08d91ad94dc3d6c27e3dd23b8043a6b806abd414d4b87eda636e",
-        "render.py": "0ad6e7bf7c6bc8cd117e1ec4705bb44f5c21297ce9ac91ce4e17a939d88e7d75",
-        "../sim_v5/human_surface.py": "61bd8c1209ec59aa3f49cf05d2ba1594149c541e27c8b9fc538a79f013a626d7",
+      "checked_poses": 127853,
+      "failures": [],
+      "scope": "Independent acceptance gate for articulated candidate motions.\n\nThis checks kinematics and quasi-static support, not dynamically balanced human\ncontrol. Pose-solver success alone is never a clearance certificate.\n",
+      "recorded_execution": true,
+      "full_trajectory": true,
+      "source_sha256": {
+        "surface_constraints.py": "308944782f136645688ba2bc153eb6dc4ebe971a639678b68b23097ce50093a4",
+        "final_motion.py": "74f3e71eb26320b90ff10e9792d98fa3a88bda68aa0ebea7a1b1dad0ea7f0851",
+        "walk_route.py": "3304b2270869c77a43a1f1db884c7f8088e693d10fbb64824ade150b0a9e2ed0",
+        "contact_geometry.py": "98550f992a2db372bf08fc3731ffb1bde1ec92a0c8c668bccb0c34d01027330c",
+        "body_differentials.py": "7149f0f075f11534609ccf8ae2311a9238af597c66a715f91455184b8e778db8",
+        "grasp_sites.py": "e9d832e632eba824bb1a1b19e2b2a58a5e0afbc29fc911578a5de06f1dc677bf",
+        "body_geometry.py": "a961b82af0aaf60b383ec5f180a27b4b571374c14a533e7686ba75e4734b3d50",
+        "carried_body.py": "8ddda2b0dec9e396be06d3434bdc410b9833baa72648fb4a97f86bc71f14c0a0",
+        "embodied_world.py": "da5e31852249161f9091392e88f2162131f3d393e50f2996aa21f851ba45dc69",
+        "articulated_body.py": "0fbe0790538009b5f885145dab53cb6190cab3007996e3f7f2e3076f7d4a9ff8",
+        "plan_body_motion.py": "3599415f75bbc72b3638dcfe0a0027743e419d8c1ca7eeb3f2d2e38c8422972c",
+        "task_stance.py": "43b41c9610ed99ba9f4732f991c8bd55ba00e00434057af836d7c304b30a40a7",
+        "task_hands.py": "6c95c8993a0b30e3640482ec15dc6a41f2dd9955c89bb42fee82136d211d8e03",
+        "foot_contacts.py": "b46f8da2a7cb3a4ce96a07522d76c34c912253e6c2fdcb12e0669cdfdffe67c1",
+        "validate_body_motion.py": "190da93b33b9aad4d523e80c9e95519620254b553261307d5f265ca8b3e79176",
+        "prepare_visuals.py": "e2a9749bbd9d7bc757f92c7990a7d82a5d6b0364fec8d7f726470b81fd8b08f7",
+        "body_proof.py": "e041ac50807bae260ad13257d332de4e2146baff79ab0a08629e41158773a3ef",
+        "render.py": "cb8aa9191a413a88c03f80858d6a8f2ac58e42cbf10824944dc3e9c261d73e2b",
+        "leg_clearance.py": "fd68b8d20f99568345f8f42cb254e0881eac603c0432599f39545aa5952195de",
+        "audit_leg_surface.py": "d82b18297af3a785094e056e393da214d25016e9401db140fcf49c30b37f0345",
+        "../sim_v5/human_surface.py": "10331f1e93f7b70907a7072577a6f3e4e9f5f0db62224859597dc48acff5bedd",
         "../sim_v5/assets/makehuman/base.obj": "8e761e6624b8f54536409135d1636da63b32486a90d4897f84e121d144f6fb4c",
+        "../sim_v5/assets/makehuman/default.mhskel": "99f179bce0aa850b45d4191a1d0d234c5851f881c057439470ded3bddf729a24",
         "../sim_v5/assets/makehuman/default_weights.mhw": "0f3641d651ae3d00ad6b4ccee43142edb109d3bd909d27d9e4139ef1beed8625",
-        "../sim_v5/assets/makehuman/default.mhskel": "99f179bce0aa850b45d4191a1d0d234c5851f881c057439470ded3bddf729a24"
+        "assets/hand_poses.json": "b9a37e4c5f587c3398b98bbb3fed575ec7105b7aee25905b394d03da4c352d0b"
+      },
+      "data_sha256": {
+        "trajectory.json": "8c932bd360744f722c2a834b69f426bc92283114e0c00ab728540514a362cf1d",
+        "asset.json": "c550bedcdebe4ac20526c1a0e5cf84f8c8e85416023ce0ae97c0644e0964dca7",
+        "visuals.json": "d9f33696810495b5dba33bcbf574cd166709201f2c0417e3f22ac48abd0aeec8",
+        "result.json": "07028e4ed099fc934dda1e9693b7e85179a0b60c47e8c55c987ae54fa7d40016"
       }
     },
     "shelf_recording_audit": {
       "engaged_tool_tip_tolerance_m": 0.005,
-      "maximum_engaged_tool_tip_error_m": 0.0012092723019805727,
+      "maximum_engaged_tool_tip_error_m": 5.3923629770547816e-05,
       "clockwise_direction_errors": [],
       "premature_fastening": [],
       "constraint_mismatches": [],
-      "maximum_sampled_furniture_penetration_m": 0.0010733136846070796,
+      "maximum_sampled_furniture_penetration_m": 0.0003672095874299175,
       "worst_contact": {
-        "t": 183.00000000050974,
+        "t": 0.16000000000000011,
         "geoms": [
-          "shape_back",
-          "shape_shelf_2"
+          "floor",
+          "shape_left"
         ]
       },
       "tool_intersection_frames_over_4mm": 0,
+      "tool_floor_intersections_over_1mm": 0,
       "worst_tool_intersections": [],
-      "trajectory_sha256": "65adfa77d9366300f9910d418b9dc509593ec66552c74bef0ef133134edba706",
-      "scope": "25 Hz sampled replay audit; tool approximated by capsule samples; finger contact is intentionally not exact.",
+      "trajectory_sha256": "8c932bd360744f722c2a834b69f426bc92283114e0c00ab728540514a362cf1d",
+      "scope": "25 Hz sampled replay audit; tool capsule samples checked against parts, attached hardware, fixtures and floor; finger contact is intentionally not exact.",
       "passed": true
     },
     "shelf_visual_reach": {
-      "max_shoulder_to_wrist_m": 0.6250000051491451,
-      "arm_lengths_m": [
-        0.34,
-        0.31
-      ],
       "passed": true,
-      "scope": "Kinematic arm reach, tightening stance and audited leg/part clearance; not full-body balance or collision certification",
-      "hips_inside_assembly_footprint_during_tightening": 0,
-      "leg_clearance_passed": true
+      "scope": "Independent acceptance gate for articulated candidate motions.\n\nThis checks kinematics and quasi-static support, not dynamically balanced human\ncontrol. Pose-solver success alone is never a clearance certificate.\n",
+      "articulated_body": true,
+      "recorded_execution": true
     }
   },
   "core_regression": {
@@ -224,8 +214,8 @@
       "wrong_tool_axis_rejected": true,
       "nonfinite_turn_rejected": true,
       "insufficient_torque_rejected": true,
-      "partial_fastening_released_beam_drop_m": 0.4996605856484691,
-      "loosening_released_beam_drop_m": 0.4512765062504232,
+      "partial_fastening_released_beam_drop_m": 0.49999960689274026,
+      "loosening_released_beam_drop_m": 0.4514400280938917,
       "table_seed1": 4,
       "table_seed7": 4,
       "shelf_seed1": 8,

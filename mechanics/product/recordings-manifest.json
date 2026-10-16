@@ -1,0 +1,44 @@
+{
+  "format": "concatenated-zip-parts",
+  "sha256": "f40d7ddd5d7cb8186ee7121a9c5d47fd866dae5fcbc370756adb2c0f42d894ef",
+  "bytes": 559263877,
+  "parts": [
+    {
+      "file": "recordings.zip.001",
+      "bytes": 94371840,
+      "sha256": "eb9257be6dec5d98ac198ddb20d01336dd4286893e7f29cd23ee0072d7fd8703",
+      "url": "https://github.com/hellomuffin/assembly-video-gallery/releases/download/articulated-motion-20261016-v219/recordings.zip.001"
+    },
+    {
+      "file": "recordings.zip.002",
+      "bytes": 94371840,
+      "sha256": "55f9f2c929be78b8335a142b5b5a6dcb56dff8fad8e8a3052ee29f3df9f77ef1",
+      "url": "https://github.com/hellomuffin/assembly-video-gallery/releases/download/articulated-motion-20261016-v219/recordings.zip.002"
+    },
+    {
+      "file": "recordings.zip.003",
+      "bytes": 94371840,
+      "sha256": "d6979c0570a9b51b9b2c350c9d5790d617a62691caa3e8149b4ee72a1cf2284c",
+      "url": "https://github.com/hellomuffin/assembly-video-gallery/releases/download/articulated-motion-20261016-v219/recordings.zip.003"
+    },
+    {
+      "file": "recordings.zip.004",
+      "bytes": 94371840,
+      "sha256": "225f3db55a410fd71cee1c307b8d200e6f906c6e514cf738fcf2e9e2cf7689e7",
+      "url": "https://github.com/hellomuffin/assembly-video-gallery/releases/download/articulated-motion-20261016-v219/recordings.zip.004"
+    },
+    {
+      "file": "recordings.zip.005",
+      "bytes": 94371840,
+      "sha256": "452bfbc2549596d01886a9fa50897d3a9cfd411acadcf6c128215c91e6fab4a3",
+      "url": "https://github.com/hellomuffin/assembly-video-gallery/releases/download/articulated-motion-20261016-v219/recordings.zip.005"
+    },
+    {
+      "file": "recordings.zip.006",
+      "bytes": 87404677,
+      "sha256": "9dcc24703ee7a9f77dcce187c36fd78a80483008a0e05c805985a4240f3070df",
+      "url": "https://github.com/hellomuffin/assembly-video-gallery/releases/download/articulated-motion-20261016-v219/recordings.zip.006"
+    }
+  ],
+  "release_url": "https://github.com/hellomuffin/assembly-video-gallery/releases/tag/articulated-motion-20261016-v219"
+}
