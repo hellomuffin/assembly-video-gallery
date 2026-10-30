@@ -13,8 +13,8 @@
     "video_duration_seconds": 100.8,
     "width": 960,
     "height": 540,
-    "sha256": "844a96a319c21c15dbee15c9c1a97fa829aa59c1af1f25a1fb0d499862d6c15c",
-    "bytes": 12282989,
+    "sha256": "7d73259695a79f38c05bdd2d89e9d3f0bf0c17b09dc9d120d5dfc74e8e8adc37",
+    "bytes": 13878882,
     "decode_verified": true
   },
   {
@@ -49,8 +49,8 @@
     "video_duration_seconds": 10.0,
     "width": 960,
     "height": 540,
-    "sha256": "2cd49140d40643bcb2d600605933ad2541f66910e10cfdf16a53b558c1f4e3b1",
-    "bytes": 190641,
+    "sha256": "6efec019371dc6b9edf57324b49df202034cc54cb6bcdf539de2c9a041d8bfca",
+    "bytes": 751903,
     "decode_verified": true
   },
   {
@@ -85,8 +85,8 @@
     "video_duration_seconds": 42.08,
     "width": 960,
     "height": 540,
-    "sha256": "59d03798467b2ca56b7c9930e549540aad96a97764cc27ed2aabcd4e43ad3008",
-    "bytes": 6329184,
+    "sha256": "44fe0d11a77710f734e52255455ac304abef4b799a7052f8d4a1a0917ef7c5d1",
+    "bytes": 6409045,
     "decode_verified": true
   },
   {
@@ -121,8 +121,8 @@
     "video_duration_seconds": 159.92,
     "width": 960,
     "height": 540,
-    "sha256": "c098ac02f611ebaf5076ee7d062ee713c3ee973240c3bba754cd9f84cf54979e",
-    "bytes": 20036224,
+    "sha256": "81a800b0984be908bd288505ba06c399b00ea0ca83f508df1d83f6a66688aee8",
+    "bytes": 22469742,
     "decode_verified": true
   },
   {
@@ -157,8 +157,8 @@
     "video_duration_seconds": 10.0,
     "width": 960,
     "height": 540,
-    "sha256": "308e970598dbc8ff477708b263e6545671476b05b77b1117d0f451156a3b1510",
-    "bytes": 224735,
+    "sha256": "b08ee45522a10cd06badec4f35b3e4bb8e9dd48c4cc1022387e0dd3cff71f1dc",
+    "bytes": 633151,
     "decode_verified": true
   },
   {
@@ -193,8 +193,8 @@
     "video_duration_seconds": 43.12,
     "width": 960,
     "height": 540,
-    "sha256": "130e224d6fbbcbcfa82bc1803355fe1cbf95bdcc83af5a353823f279b5213ab5",
-    "bytes": 5191739,
+    "sha256": "9b42c1c6bf92e75814d13e601bb9df5e71c1c1cf71dfda23337e65dd85ac8f40",
+    "bytes": 5192675,
     "decode_verified": true
   },
   {
