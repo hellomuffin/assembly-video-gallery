@@ -1,0 +1,418 @@
+{
+  "scope": "Evaluated native skin, clothing, shoes and fixed-length rig at the rendered source frames. This is not a dynamics, grasp-force, self-collision or continuous-time certificate.",
+  "character_sha256": "5effe62f50106c0c1462e8631e44de8361811d0877ac49d0ffef565bcd27ce53",
+  "tasks": {
+    "table": {
+      "source_frames": 20136,
+      "source_trajectory_sha256": "42fe2dc36fa453549d4f457953223d95bfe335803ffea7708f7cc4c33cd83a3f",
+      "source_furniture_task_complete": true,
+      "source_physics_passed": true,
+      "rendered_source_poses_checked": 2482,
+      "native_mesh_samples_passed": false,
+      "failed_sample_count": 22,
+      "hand_contact_intersection_sample_count": 1666,
+      "maximum_bone_length_error_m": 1.4678742928556086e-06,
+      "maximum_foot_target_error_m": 9.930667778407415e-05,
+      "maximum_wrist_target_error_m": 0.002223712203258707,
+      "minimum_surface_height_m": -9.73572391762545e-05,
+      "failures": [
+        {
+          "frame": 2592,
+          "stage": "Release supported part",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_0": 26
+          },
+          "floor_minimum_m": {
+            "Human.shoes05": -4.0658163844520256e-05,
+            "Human.male_casualsuit02": 0.07960273985941918,
+            "Human": 0.14255380196213813
+          },
+          "wrist_target_error_m": 1.057877501803568e-06,
+          "foot_target_error_m": 3.975382376989555e-05
+        },
+        {
+          "frame": 5904,
+          "stage": "Position driver at mount 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_1": 6
+          },
+          "floor_minimum_m": {
+            "Human.shoes05": -7.672614303366743e-05,
+            "Human.male_casualsuit02": 0.07975975210640751,
+            "Human": 0.14504916978324478
+          },
+          "wrist_target_error_m": 5.479090306416224e-07,
+          "foot_target_error_m": 7.633955193548846e-05
+        },
+        {
+          "frame": 6032,
+          "stage": "Tighten clockwise \u00b7 mount 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_1": 1
+          },
+          "floor_minimum_m": {
+            "Human.shoes05": -8.957735441150749e-05,
+            "Human.male_casualsuit02": 0.07960767389654477,
+            "Human": 0.13177248214906667
+          },
+          "wrist_target_error_m": 1.6880457384214822e-06,
+          "foot_target_error_m": 8.942859606590568e-05
+        },
+        {
+          "frame": 6064,
+          "stage": "Tighten clockwise \u00b7 mount 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_1": 20
+          },
+          "floor_minimum_m": {
+            "Human.shoes05": -2.6200976734003234e-05,
+            "Human.male_casualsuit02": 0.07979970274521353,
+            "Human": 0.13504857300020268
+          },
+          "wrist_target_error_m": 3.7979256944462406e-06,
+          "foot_target_error_m": 2.5482921193949136e-05
+        },
+        {
+          "frame": 6096,
+          "stage": "Tighten clockwise \u00b7 mount 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_1": 17
+          },
+          "floor_minimum_m": {
+            "Human.shoes05": -3.3829886746383764e-05,
+            "Human.male_casualsuit02": 0.0797580712776842,
+            "Human": 0.1371453429551328
+          },
+          "wrist_target_error_m": 1.4320628376882033e-06,
+          "foot_target_error_m": 3.323619743683429e-05
+        },
+        {
+          "frame": 6128,
+          "stage": "Reset ratchet \u00b7 mount 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_1": 4
+          },
+          "floor_minimum_m": {
+            "Human.shoes05": -4.262574091251636e-05,
+            "Human.male_casualsuit02": 0.07969189715330649,
+            "Human": 0.13827250602619756
+          },
+          "wrist_target_error_m": 1.6120825214741851e-06,
+          "foot_target_error_m": 4.19537979202448e-05
+        },
+        {
+          "frame": 6528,
+          "stage": "Release supported part",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_1": 3
+          },
+          "floor_minimum_m": {
+            "Human.shoes05": -5.163472140146119e-05,
+            "Human.male_casualsuit02": 0.07984670239563152,
+            "Human": 0.13822772069456857
+          },
+          "wrist_target_error_m": 0.001614598912470941,
+          "foot_target_error_m": 5.111603948197441e-05
+        },
+        {
+          "frame": 9824,
+          "stage": "Check resting support before fastening",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_2": 25
+          },
+          "floor_minimum_m": {
+            "Human.shoes05": -3.348441951445125e-05,
+            "Human.male_casualsuit02": 0.07949658931964354,
+            "Human": 0.13566835362653196
+          },
+          "wrist_target_error_m": 8.800520336767078e-07,
+          "foot_target_error_m": 3.348447753461381e-05
+        },
+        {
+          "frame": 15392,
+          "stage": "Align leg 3",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 9
+          },
+          "floor_minimum_m": {
+            "Human.shoes05": -1.961300515507247e-05,
+            "Human.male_casualsuit02": 0.07966665332116946,
+            "Human": 0.16881395272823774
+          },
+          "wrist_target_error_m": 0.0016660636731160839,
+          "foot_target_error_m": 1.915384298998129e-05
+        },
+        {
+          "frame": 15584,
+          "stage": "Prepare driver posture",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 2
+          },
+          "floor_minimum_m": {
+            "Human.shoes05": -7.280094951145344e-05,
+            "Human.male_casualsuit02": 0.07913185420106772,
+            "Human": 0.14965477769275592
+          },
+          "wrist_target_error_m": 9.652456486643342e-07,
+          "foot_target_error_m": 7.263987026342382e-05
+        },
+        {
+          "frame": 15664,
+          "stage": "Prepare driver posture",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 2
+          },
+          "floor_minimum_m": {
+            "Human.shoes05": -2.203277064427578e-05,
+            "Human.male_casualsuit02": 0.07907502287704743,
+            "Human": 0.14794900137272915
+          },
+          "wrist_target_error_m": 1.3543671885001068e-06,
+          "foot_target_error_m": 2.118005993790389e-05
+        },
+        {
+          "frame": 15680,
+          "stage": "Prepare driver posture",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 3
+          },
+          "floor_minimum_m": {
+            "Human.shoes05": -2.3356030494636748e-05,
+            "Human.male_casualsuit02": 0.07904152672467035,
+            "Human": 0.1479335579432377
+          },
+          "wrist_target_error_m": 1.2135072393120726e-06,
+          "foot_target_error_m": 2.2535699586417825e-05
+        },
+        {
+          "frame": 15936,
+          "stage": "Tighten clockwise \u00b7 mount 3",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 11
+          },
+          "floor_minimum_m": {
+            "Human.shoes05": -6.270874624236811e-05,
+            "Human.male_casualsuit02": 0.07860370867849631,
+            "Human": 0.14449600388246941
+          },
+          "wrist_target_error_m": 4.3382409084779925e-06,
+          "foot_target_error_m": 6.446095592585173e-05
+        },
+        {
+          "frame": 15952,
+          "stage": "Reset ratchet \u00b7 mount 3",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 19
+          },
+          "floor_minimum_m": {
+            "Human.shoes05": -4.636840169891521e-05,
+            "Human.male_casualsuit02": 0.07857422454026974,
+            "Human": 0.14232073734878448
+          },
+          "wrist_target_error_m": 3.0981875711945166e-06,
+          "foot_target_error_m": 4.739570530633906e-05
+        },
+        {
+          "frame": 15968,
+          "stage": "Tighten clockwise \u00b7 mount 3",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 20
+          },
+          "floor_minimum_m": {
+            "Human.shoes05": -5.35425361699593e-05,
+            "Human.male_casualsuit02": 0.07853720025772293,
+            "Human": 0.14134649790592624
+          },
+          "wrist_target_error_m": 3.139091505095549e-06,
+          "foot_target_error_m": 5.499610626400852e-05
+        },
+        {
+          "frame": 16016,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 28
+          },
+          "floor_minimum_m": {
+            "Human.shoes05": -4.021187961278372e-05,
+            "Human.male_casualsuit02": 0.07878761541919765,
+            "Human": 0.15300029768849244
+          },
+          "wrist_target_error_m": 1.0942211937752805e-06,
+          "foot_target_error_m": 4.067640638669515e-05
+        },
+        {
+          "frame": 16032,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 19
+          },
+          "floor_minimum_m": {
+            "Human.shoes05": -2.7047895429510582e-05,
+            "Human.male_casualsuit02": 0.07879995548896879,
+            "Human": 0.15469555232920618
+          },
+          "wrist_target_error_m": 3.0062331022483434e-06,
+          "foot_target_error_m": 2.677399181304635e-05
+        },
+        {
+          "frame": 16048,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 21
+          },
+          "floor_minimum_m": {
+            "Human.shoes05": -2.5542962878599695e-05,
+            "Human.male_casualsuit02": 0.07877060573629846,
+            "Human": 0.15534405658675654
+          },
+          "wrist_target_error_m": 2.323291264805725e-06,
+          "foot_target_error_m": 2.5371169917025323e-05
+        },
+        {
+          "frame": 16064,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 15
+          },
+          "floor_minimum_m": {
+            "Human.shoes05": -2.4397444888690778e-05,
+            "Human.male_casualsuit02": 0.07874432578032986,
+            "Human": 0.15444987911495744
+          },
+          "wrist_target_error_m": 1.6335642203442832e-06,
+          "foot_target_error_m": 2.40994312938775e-05
+        },
+        {
+          "frame": 16080,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 8
+          },
+          "floor_minimum_m": {
+            "Human.shoes05": -2.3917054136846083e-05,
+            "Human.male_casualsuit02": 0.07870165839537224,
+            "Human": 0.15291258774331462
+          },
+          "wrist_target_error_m": 1.3089506036336026e-06,
+          "foot_target_error_m": 2.3480685311543444e-05
+        },
+        {
+          "frame": 16192,
+          "stage": "Release supported part",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 3
+          },
+          "floor_minimum_m": {
+            "Human.shoes05": -2.3564884060800484e-05,
+            "Human.male_casualsuit02": 0.07904147783127158,
+            "Human": 0.14773163116294308
+          },
+          "wrist_target_error_m": 1.3454849177726892e-06,
+          "foot_target_error_m": 2.2775058782190458e-05
+        },
+        {
+          "frame": 16208,
+          "stage": "Release supported part",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 10
+          },
+          "floor_minimum_m": {
+            "Human.shoes05": -4.5125258131162305e-05,
+            "Human.male_casualsuit02": 0.07893997559931243,
+            "Human": 0.1555013583410504
+          },
+          "wrist_target_error_m": 1.182367469363056e-06,
+          "foot_target_error_m": 4.485957887386563e-05
+        }
+      ]
+    }
+  },
+  "implementation_sha256": {
+    "aggregate_evidence.py": "6b0588c8248a7f3b75e28934b2a48a15a9d9812aac0ca1bc4e3bfe61cb158cbf",
+    "audit_full_motion.py": "66d1018848f20628fa1b5cf4257f9ac4fb0e76820c5830e515a90262aed0fc0b",
+    "blender_args.py": "8d977164fd6c89497df5f219bb83120dc05853409534ce440de1a0e1a2c4e105",
+    "build_character.py": "3a223cf98a83fc9064383514c03816e0109ae8d9d0807fa510940f2f9b3b4810",
+    "classify_contacts.py": "49f88388bad92aa8fa59af26bdc45f7e3a2e9dc1c6921b632a191866e60f9834",
+    "encode_videos.py": "2c176e1cd5b2b67665ff503ba40bcc3fff32d7b3813510d700e0f81883aeffd1",
+    "export_character.py": "d011e270d5ee6f8356b712498c397e7e4b90c10d4c7be9ee384226a68e3115aa",
+    "motion_inputs.py": "00c912438d4c2f852fbdc5db4b94feee00b78f371a5b8be8f410fc61432b1189",
+    "native_audit.py": "d863d77defe8dccf7266d424f8d355c50114d700ed4a3b22906b247c341ab1f8",
+    "native_rig.py": "9aee3f180a609b69f216626a17ed174d7f5e6a6de06529da1277ba9724d94184",
+    "native_stance.py": "0eb0d95c3b9d0e06312e5e66297cac7c938a6f277691813a0365cf0349806801",
+    "plan_clearance.py": "bc47a4c5a4e90fe4f9c955a8f1757834e1253fa29dd2ccf0bbcb404b63ea3312",
+    "prepare_reference.py": "6f15bafe0a9f5ccee9014fbfbe5a8b857495453d7215d494552f3227f8ee83c2",
+    "prepare_video_jobs.py": "f94cc9740762143d7a75d44fb352731e1056868bf65414ea8b29d08d527a0d36",
+    "preview.py": "c5471b4fa5b535e39486afdd594a035f09750b07883da703fa1f0fe9dc47db6b",
+    "probe_motion.py": "f3d4895936eb1badcd65f292976b2c7db7e7d0b8094c1dc3dac70d2998038aef",
+    "render_all.py": "d760a7e9280dd04b6c0dd3d0a486f960b5de9d0d25113db1064ca0c1cf3afa89",
+    "render_video.py": "4dfcb3a9d35c74d4499239266cd26eb43efe2a45a9fccc9e75bfc77b145109f4",
+    "setup_runtime.py": "8036cd01610d6138305ff91611172b72d38e035de7461acf67e5e00cb4e24d0c",
+    "stage_gallery.py": "fb23b760efcad3da6b5a3c64899d0d9787d65ead95124526aefd65691d9dd005"
+  }
+}
