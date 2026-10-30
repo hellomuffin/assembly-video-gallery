@@ -1,0 +1,5734 @@
+{
+  "scope": "Every recorded 25 Hz source pose; native skin, fitted clothing, shoes versus furniture parts, brackets, fixtures and floor. No continuous-time, self-collision, dynamic-balance or accurate finger-grasp certificate.",
+  "tasks": {
+    "table": {
+      "source_poses_checked": 20136,
+      "all_native_surface_checks_passed": false,
+      "body_or_clothing_failure_poses": 355,
+      "floor_failure_poses": 0,
+      "leg_or_shoe_object_intersection_poses": 0,
+      "leg_or_shoe_object_intersections": [],
+      "hand_intersection_poses": 10880,
+      "maximum_bone_length_error_m": 1.4678742928556086e-06,
+      "maximum_foot_target_error_m": 9.934415415123253e-05,
+      "maximum_wrist_target_error_m": 0.002981514426025133,
+      "rendered_pose_comparisons": 2481,
+      "expected_rendered_pose_comparisons": 2481,
+      "maximum_render_vs_dense_joint_difference_m": 0.0,
+      "render_vs_dense_mismatches": [],
+      "native_stance": null,
+      "failures": [
+        {
+          "frame": 2590,
+          "stage": "Release supported part",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_0": 26
+          }
+        },
+        {
+          "frame": 2591,
+          "stage": "Release supported part",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_0": 26
+          }
+        },
+        {
+          "frame": 2592,
+          "stage": "Release supported part",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_0": 26
+          }
+        },
+        {
+          "frame": 2593,
+          "stage": "Release supported part",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_0": 26
+          }
+        },
+        {
+          "frame": 2594,
+          "stage": "Release supported part",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_0": 26
+          }
+        },
+        {
+          "frame": 2595,
+          "stage": "Release supported part",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_0": 26
+          }
+        },
+        {
+          "frame": 2596,
+          "stage": "Release supported part",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_0": 26
+          }
+        },
+        {
+          "frame": 2597,
+          "stage": "Release supported part",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_0": 26
+          }
+        },
+        {
+          "frame": 2598,
+          "stage": "Release supported part",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_0": 26
+          }
+        },
+        {
+          "frame": 2599,
+          "stage": "Release supported part",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_0": 26
+          }
+        },
+        {
+          "frame": 2600,
+          "stage": "Stand before walking",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_0": 26
+          }
+        },
+        {
+          "frame": 2601,
+          "stage": "Stand before walking",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_0": 19
+          }
+        },
+        {
+          "frame": 2602,
+          "stage": "Stand before walking",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_0": 14
+          }
+        },
+        {
+          "frame": 5901,
+          "stage": "Position driver at mount 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_1": 3
+          }
+        },
+        {
+          "frame": 5902,
+          "stage": "Position driver at mount 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_1": 4
+          }
+        },
+        {
+          "frame": 5903,
+          "stage": "Position driver at mount 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_1": 5
+          }
+        },
+        {
+          "frame": 5904,
+          "stage": "Position driver at mount 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_1": 6
+          }
+        },
+        {
+          "frame": 5905,
+          "stage": "Position driver at mount 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_1": 7
+          }
+        },
+        {
+          "frame": 5906,
+          "stage": "Position driver at mount 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_1": 9
+          }
+        },
+        {
+          "frame": 5907,
+          "stage": "Position driver at mount 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_1": 12
+          }
+        },
+        {
+          "frame": 5908,
+          "stage": "Position driver at mount 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_1": 13
+          }
+        },
+        {
+          "frame": 5909,
+          "stage": "Position driver at mount 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_1": 17
+          }
+        },
+        {
+          "frame": 5910,
+          "stage": "Position driver at mount 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_1": 13
+          }
+        },
+        {
+          "frame": 5911,
+          "stage": "Position driver at mount 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_1": 18
+          }
+        },
+        {
+          "frame": 5912,
+          "stage": "Position driver at mount 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_1": 18
+          }
+        },
+        {
+          "frame": 5913,
+          "stage": "Position driver at mount 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_1": 20
+          }
+        },
+        {
+          "frame": 5914,
+          "stage": "Position driver at mount 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_1": 19
+          }
+        },
+        {
+          "frame": 5915,
+          "stage": "Position driver at mount 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_1": 18
+          }
+        },
+        {
+          "frame": 5916,
+          "stage": "Position driver at mount 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_1": 18
+          }
+        },
+        {
+          "frame": 5917,
+          "stage": "Position driver at mount 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_1": 15
+          }
+        },
+        {
+          "frame": 5918,
+          "stage": "Position driver at mount 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_1": 17
+          }
+        },
+        {
+          "frame": 5919,
+          "stage": "Position driver at mount 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_1": 16
+          }
+        },
+        {
+          "frame": 6030,
+          "stage": "Reset ratchet \u00b7 mount 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_1": 1
+          }
+        },
+        {
+          "frame": 6031,
+          "stage": "Tighten clockwise \u00b7 mount 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_1": 2
+          }
+        },
+        {
+          "frame": 6032,
+          "stage": "Tighten clockwise \u00b7 mount 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_1": 1
+          }
+        },
+        {
+          "frame": 6060,
+          "stage": "Reset ratchet \u00b7 mount 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_1": 13
+          }
+        },
+        {
+          "frame": 6061,
+          "stage": "Reset ratchet \u00b7 mount 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_1": 21
+          }
+        },
+        {
+          "frame": 6062,
+          "stage": "Tighten clockwise \u00b7 mount 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_1": 30
+          }
+        },
+        {
+          "frame": 6063,
+          "stage": "Tighten clockwise \u00b7 mount 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_1": 22
+          }
+        },
+        {
+          "frame": 6064,
+          "stage": "Tighten clockwise \u00b7 mount 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_1": 20
+          }
+        },
+        {
+          "frame": 6065,
+          "stage": "Tighten clockwise \u00b7 mount 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_1": 18
+          }
+        },
+        {
+          "frame": 6066,
+          "stage": "Tighten clockwise \u00b7 mount 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_1": 15
+          }
+        },
+        {
+          "frame": 6067,
+          "stage": "Tighten clockwise \u00b7 mount 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_1": 2
+          }
+        },
+        {
+          "frame": 6090,
+          "stage": "Reset ratchet \u00b7 mount 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_1": 16
+          }
+        },
+        {
+          "frame": 6091,
+          "stage": "Reset ratchet \u00b7 mount 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_1": 38
+          }
+        },
+        {
+          "frame": 6092,
+          "stage": "Reset ratchet \u00b7 mount 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_1": 51
+          }
+        },
+        {
+          "frame": 6093,
+          "stage": "Tighten clockwise \u00b7 mount 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_1": 52
+          }
+        },
+        {
+          "frame": 6094,
+          "stage": "Tighten clockwise \u00b7 mount 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_1": 48
+          }
+        },
+        {
+          "frame": 6095,
+          "stage": "Tighten clockwise \u00b7 mount 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_1": 42
+          }
+        },
+        {
+          "frame": 6096,
+          "stage": "Tighten clockwise \u00b7 mount 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_1": 17
+          }
+        },
+        {
+          "frame": 6097,
+          "stage": "Tighten clockwise \u00b7 mount 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_1": 10
+          }
+        },
+        {
+          "frame": 6098,
+          "stage": "Tighten clockwise \u00b7 mount 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_1": 5
+          }
+        },
+        {
+          "frame": 6121,
+          "stage": "Reset ratchet \u00b7 mount 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_1": 33
+          }
+        },
+        {
+          "frame": 6122,
+          "stage": "Reset ratchet \u00b7 mount 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_1": 57
+          }
+        },
+        {
+          "frame": 6123,
+          "stage": "Reset ratchet \u00b7 mount 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_1": 66
+          }
+        },
+        {
+          "frame": 6124,
+          "stage": "Reset ratchet \u00b7 mount 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_1": 67
+          }
+        },
+        {
+          "frame": 6125,
+          "stage": "Reset ratchet \u00b7 mount 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_1": 60
+          }
+        },
+        {
+          "frame": 6126,
+          "stage": "Reset ratchet \u00b7 mount 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_1": 47
+          }
+        },
+        {
+          "frame": 6127,
+          "stage": "Reset ratchet \u00b7 mount 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_1": 31
+          }
+        },
+        {
+          "frame": 6128,
+          "stage": "Reset ratchet \u00b7 mount 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_1": 4
+          }
+        },
+        {
+          "frame": 6524,
+          "stage": "Release supported part",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_1": 3
+          }
+        },
+        {
+          "frame": 6525,
+          "stage": "Release supported part",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_1": 3
+          }
+        },
+        {
+          "frame": 6526,
+          "stage": "Release supported part",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_1": 3
+          }
+        },
+        {
+          "frame": 6527,
+          "stage": "Release supported part",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_1": 3
+          }
+        },
+        {
+          "frame": 6528,
+          "stage": "Release supported part",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_1": 3
+          }
+        },
+        {
+          "frame": 6529,
+          "stage": "Release supported part",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_1": 2
+          }
+        },
+        {
+          "frame": 9814,
+          "stage": "Check resting support before fastening",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_2": 25
+          }
+        },
+        {
+          "frame": 9815,
+          "stage": "Check resting support before fastening",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_2": 25
+          }
+        },
+        {
+          "frame": 9816,
+          "stage": "Check resting support before fastening",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_2": 25
+          }
+        },
+        {
+          "frame": 9817,
+          "stage": "Check resting support before fastening",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_2": 25
+          }
+        },
+        {
+          "frame": 9818,
+          "stage": "Check resting support before fastening",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_2": 25
+          }
+        },
+        {
+          "frame": 9819,
+          "stage": "Check resting support before fastening",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_2": 25
+          }
+        },
+        {
+          "frame": 9820,
+          "stage": "Check resting support before fastening",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_2": 25
+          }
+        },
+        {
+          "frame": 9821,
+          "stage": "Check resting support before fastening",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_2": 25
+          }
+        },
+        {
+          "frame": 9822,
+          "stage": "Check resting support before fastening",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_2": 25
+          }
+        },
+        {
+          "frame": 9823,
+          "stage": "Check resting support before fastening",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_2": 25
+          }
+        },
+        {
+          "frame": 9824,
+          "stage": "Check resting support before fastening",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_2": 25
+          }
+        },
+        {
+          "frame": 9825,
+          "stage": "Check resting support before fastening",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_2": 25
+          }
+        },
+        {
+          "frame": 9826,
+          "stage": "Check resting support before fastening",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_2": 22
+          }
+        },
+        {
+          "frame": 9827,
+          "stage": "Check resting support before fastening",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_2": 20
+          }
+        },
+        {
+          "frame": 9828,
+          "stage": "Check resting support before fastening",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_2": 20
+          }
+        },
+        {
+          "frame": 9829,
+          "stage": "Stand before walking",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_2": 19
+          }
+        },
+        {
+          "frame": 9830,
+          "stage": "Stand before walking",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_2": 19
+          }
+        },
+        {
+          "frame": 9831,
+          "stage": "Stand before walking",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_2": 19
+          }
+        },
+        {
+          "frame": 9832,
+          "stage": "Stand before walking",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_2": 12
+          }
+        },
+        {
+          "frame": 9833,
+          "stage": "Stand before walking",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_2": 9
+          }
+        },
+        {
+          "frame": 9834,
+          "stage": "Stand before walking",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_2": 9
+          }
+        },
+        {
+          "frame": 9835,
+          "stage": "Stand before walking",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_2": 5
+          }
+        },
+        {
+          "frame": 9836,
+          "stage": "Stand before walking",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_2": 5
+          }
+        },
+        {
+          "frame": 9837,
+          "stage": "Stand before walking",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_2": 3
+          }
+        },
+        {
+          "frame": 9838,
+          "stage": "Stand before walking",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_2": 3
+          }
+        },
+        {
+          "frame": 9839,
+          "stage": "Stand before walking",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_2": 1
+          }
+        },
+        {
+          "frame": 10390,
+          "stage": "Position driver at mount 2",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_2": 9
+          }
+        },
+        {
+          "frame": 10391,
+          "stage": "Position driver at mount 2",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_2": 15
+          }
+        },
+        {
+          "frame": 10392,
+          "stage": "Tighten clockwise \u00b7 mount 2",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_2": 15
+          }
+        },
+        {
+          "frame": 10393,
+          "stage": "Tighten clockwise \u00b7 mount 2",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_2": 4
+          }
+        },
+        {
+          "frame": 10454,
+          "stage": "Tighten clockwise \u00b7 mount 2",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_2": 3
+          }
+        },
+        {
+          "frame": 10485,
+          "stage": "Tighten clockwise \u00b7 mount 2",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_2": 9
+          }
+        },
+        {
+          "frame": 10516,
+          "stage": "Reset ratchet \u00b7 mount 2",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_2": 6
+          }
+        },
+        {
+          "frame": 15390,
+          "stage": "Align leg 3",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 10
+          }
+        },
+        {
+          "frame": 15391,
+          "stage": "Align leg 3",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 10
+          }
+        },
+        {
+          "frame": 15392,
+          "stage": "Align leg 3",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 9
+          }
+        },
+        {
+          "frame": 15393,
+          "stage": "Align leg 3",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 10
+          }
+        },
+        {
+          "frame": 15394,
+          "stage": "Align leg 3",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 10
+          }
+        },
+        {
+          "frame": 15506,
+          "stage": "Align leg 3",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 10
+          }
+        },
+        {
+          "frame": 15507,
+          "stage": "Align leg 3",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 9
+          }
+        },
+        {
+          "frame": 15508,
+          "stage": "Align leg 3",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 4
+          }
+        },
+        {
+          "frame": 15575,
+          "stage": "Prepare driver posture",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 2
+          }
+        },
+        {
+          "frame": 15576,
+          "stage": "Prepare driver posture",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 2
+          }
+        },
+        {
+          "frame": 15577,
+          "stage": "Prepare driver posture",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 2
+          }
+        },
+        {
+          "frame": 15578,
+          "stage": "Prepare driver posture",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 2
+          }
+        },
+        {
+          "frame": 15579,
+          "stage": "Prepare driver posture",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 2
+          }
+        },
+        {
+          "frame": 15580,
+          "stage": "Prepare driver posture",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 2
+          }
+        },
+        {
+          "frame": 15581,
+          "stage": "Prepare driver posture",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 2
+          }
+        },
+        {
+          "frame": 15582,
+          "stage": "Prepare driver posture",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 2
+          }
+        },
+        {
+          "frame": 15583,
+          "stage": "Prepare driver posture",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 2
+          }
+        },
+        {
+          "frame": 15584,
+          "stage": "Prepare driver posture",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 2
+          }
+        },
+        {
+          "frame": 15585,
+          "stage": "Prepare driver posture",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 2
+          }
+        },
+        {
+          "frame": 15586,
+          "stage": "Prepare driver posture",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 2
+          }
+        },
+        {
+          "frame": 15652,
+          "stage": "Prepare driver posture",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 2
+          }
+        },
+        {
+          "frame": 15653,
+          "stage": "Prepare driver posture",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 2
+          }
+        },
+        {
+          "frame": 15654,
+          "stage": "Prepare driver posture",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 2
+          }
+        },
+        {
+          "frame": 15655,
+          "stage": "Prepare driver posture",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 2
+          }
+        },
+        {
+          "frame": 15656,
+          "stage": "Prepare driver posture",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 2
+          }
+        },
+        {
+          "frame": 15657,
+          "stage": "Prepare driver posture",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 2
+          }
+        },
+        {
+          "frame": 15658,
+          "stage": "Prepare driver posture",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 2
+          }
+        },
+        {
+          "frame": 15659,
+          "stage": "Prepare driver posture",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 2
+          }
+        },
+        {
+          "frame": 15660,
+          "stage": "Prepare driver posture",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 2
+          }
+        },
+        {
+          "frame": 15661,
+          "stage": "Prepare driver posture",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 2
+          }
+        },
+        {
+          "frame": 15662,
+          "stage": "Prepare driver posture",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 2
+          }
+        },
+        {
+          "frame": 15663,
+          "stage": "Prepare driver posture",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 2
+          }
+        },
+        {
+          "frame": 15664,
+          "stage": "Prepare driver posture",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 2
+          }
+        },
+        {
+          "frame": 15665,
+          "stage": "Prepare driver posture",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 2
+          }
+        },
+        {
+          "frame": 15666,
+          "stage": "Prepare driver posture",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 2
+          }
+        },
+        {
+          "frame": 15667,
+          "stage": "Prepare driver posture",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 2
+          }
+        },
+        {
+          "frame": 15668,
+          "stage": "Prepare driver posture",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 2
+          }
+        },
+        {
+          "frame": 15669,
+          "stage": "Prepare driver posture",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 2
+          }
+        },
+        {
+          "frame": 15670,
+          "stage": "Prepare driver posture",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 2
+          }
+        },
+        {
+          "frame": 15671,
+          "stage": "Prepare driver posture",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 2
+          }
+        },
+        {
+          "frame": 15672,
+          "stage": "Prepare driver posture",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 2
+          }
+        },
+        {
+          "frame": 15673,
+          "stage": "Prepare driver posture",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 2
+          }
+        },
+        {
+          "frame": 15674,
+          "stage": "Prepare driver posture",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 2
+          }
+        },
+        {
+          "frame": 15675,
+          "stage": "Prepare driver posture",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 2
+          }
+        },
+        {
+          "frame": 15676,
+          "stage": "Prepare driver posture",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 3
+          }
+        },
+        {
+          "frame": 15677,
+          "stage": "Prepare driver posture",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 3
+          }
+        },
+        {
+          "frame": 15678,
+          "stage": "Prepare driver posture",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 3
+          }
+        },
+        {
+          "frame": 15679,
+          "stage": "Prepare driver posture",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 3
+          }
+        },
+        {
+          "frame": 15680,
+          "stage": "Prepare driver posture",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 3
+          }
+        },
+        {
+          "frame": 15681,
+          "stage": "Position driver at mount 3",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 3
+          }
+        },
+        {
+          "frame": 15682,
+          "stage": "Position driver at mount 3",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 3
+          }
+        },
+        {
+          "frame": 15683,
+          "stage": "Position driver at mount 3",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 3
+          }
+        },
+        {
+          "frame": 15684,
+          "stage": "Position driver at mount 3",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 3
+          }
+        },
+        {
+          "frame": 15685,
+          "stage": "Position driver at mount 3",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 3
+          }
+        },
+        {
+          "frame": 15686,
+          "stage": "Position driver at mount 3",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 2
+          }
+        },
+        {
+          "frame": 15687,
+          "stage": "Position driver at mount 3",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 2
+          }
+        },
+        {
+          "frame": 15688,
+          "stage": "Position driver at mount 3",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 2
+          }
+        },
+        {
+          "frame": 15930,
+          "stage": "Reset ratchet \u00b7 mount 3",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 4
+          }
+        },
+        {
+          "frame": 15931,
+          "stage": "Tighten clockwise \u00b7 mount 3",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 9
+          }
+        },
+        {
+          "frame": 15932,
+          "stage": "Tighten clockwise \u00b7 mount 3",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 14
+          }
+        },
+        {
+          "frame": 15933,
+          "stage": "Tighten clockwise \u00b7 mount 3",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 13
+          }
+        },
+        {
+          "frame": 15934,
+          "stage": "Tighten clockwise \u00b7 mount 3",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 15
+          }
+        },
+        {
+          "frame": 15935,
+          "stage": "Tighten clockwise \u00b7 mount 3",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 14
+          }
+        },
+        {
+          "frame": 15936,
+          "stage": "Tighten clockwise \u00b7 mount 3",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 11
+          }
+        },
+        {
+          "frame": 15937,
+          "stage": "Tighten clockwise \u00b7 mount 3",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 12
+          }
+        },
+        {
+          "frame": 15938,
+          "stage": "Tighten clockwise \u00b7 mount 3",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 11
+          }
+        },
+        {
+          "frame": 15939,
+          "stage": "Tighten clockwise \u00b7 mount 3",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 9
+          }
+        },
+        {
+          "frame": 15940,
+          "stage": "Tighten clockwise \u00b7 mount 3",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 12
+          }
+        },
+        {
+          "frame": 15941,
+          "stage": "Tighten clockwise \u00b7 mount 3",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 10
+          }
+        },
+        {
+          "frame": 15942,
+          "stage": "Tighten clockwise \u00b7 mount 3",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 11
+          }
+        },
+        {
+          "frame": 15943,
+          "stage": "Tighten clockwise \u00b7 mount 3",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 14
+          }
+        },
+        {
+          "frame": 15944,
+          "stage": "Tighten clockwise \u00b7 mount 3",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 13
+          }
+        },
+        {
+          "frame": 15945,
+          "stage": "Tighten clockwise \u00b7 mount 3",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 20
+          }
+        },
+        {
+          "frame": 15946,
+          "stage": "Tighten clockwise \u00b7 mount 3",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 17
+          }
+        },
+        {
+          "frame": 15947,
+          "stage": "Tighten clockwise \u00b7 mount 3",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 16
+          }
+        },
+        {
+          "frame": 15948,
+          "stage": "Tighten clockwise \u00b7 mount 3",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 19
+          }
+        },
+        {
+          "frame": 15949,
+          "stage": "Tighten clockwise \u00b7 mount 3",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 20
+          }
+        },
+        {
+          "frame": 15950,
+          "stage": "Tighten clockwise \u00b7 mount 3",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 20
+          }
+        },
+        {
+          "frame": 15951,
+          "stage": "Tighten clockwise \u00b7 mount 3",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 15
+          }
+        },
+        {
+          "frame": 15952,
+          "stage": "Reset ratchet \u00b7 mount 3",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 19
+          }
+        },
+        {
+          "frame": 15953,
+          "stage": "Reset ratchet \u00b7 mount 3",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 18
+          }
+        },
+        {
+          "frame": 15954,
+          "stage": "Reset ratchet \u00b7 mount 3",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 13
+          }
+        },
+        {
+          "frame": 15955,
+          "stage": "Reset ratchet \u00b7 mount 3",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 13
+          }
+        },
+        {
+          "frame": 15956,
+          "stage": "Reset ratchet \u00b7 mount 3",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 11
+          }
+        },
+        {
+          "frame": 15957,
+          "stage": "Reset ratchet \u00b7 mount 3",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 9
+          }
+        },
+        {
+          "frame": 15958,
+          "stage": "Reset ratchet \u00b7 mount 3",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 13
+          }
+        },
+        {
+          "frame": 15959,
+          "stage": "Reset ratchet \u00b7 mount 3",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 13
+          }
+        },
+        {
+          "frame": 15960,
+          "stage": "Reset ratchet \u00b7 mount 3",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 13
+          }
+        },
+        {
+          "frame": 15961,
+          "stage": "Reset ratchet \u00b7 mount 3",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 13
+          }
+        },
+        {
+          "frame": 15962,
+          "stage": "Tighten clockwise \u00b7 mount 3",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 13
+          }
+        },
+        {
+          "frame": 15963,
+          "stage": "Tighten clockwise \u00b7 mount 3",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 13
+          }
+        },
+        {
+          "frame": 15964,
+          "stage": "Tighten clockwise \u00b7 mount 3",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 13
+          }
+        },
+        {
+          "frame": 15965,
+          "stage": "Tighten clockwise \u00b7 mount 3",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 17
+          }
+        },
+        {
+          "frame": 15966,
+          "stage": "Tighten clockwise \u00b7 mount 3",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 20
+          }
+        },
+        {
+          "frame": 15967,
+          "stage": "Tighten clockwise \u00b7 mount 3",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 20
+          }
+        },
+        {
+          "frame": 15968,
+          "stage": "Tighten clockwise \u00b7 mount 3",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 20
+          }
+        },
+        {
+          "frame": 15969,
+          "stage": "Tighten clockwise \u00b7 mount 3",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 20
+          }
+        },
+        {
+          "frame": 15970,
+          "stage": "Tighten clockwise \u00b7 mount 3",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 20
+          }
+        },
+        {
+          "frame": 15971,
+          "stage": "Tighten clockwise \u00b7 mount 3",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 18
+          }
+        },
+        {
+          "frame": 15972,
+          "stage": "Tighten clockwise \u00b7 mount 3",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 18
+          }
+        },
+        {
+          "frame": 15973,
+          "stage": "Tighten clockwise \u00b7 mount 3",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 18
+          }
+        },
+        {
+          "frame": 15974,
+          "stage": "Tighten clockwise \u00b7 mount 3",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 16
+          }
+        },
+        {
+          "frame": 15975,
+          "stage": "Tighten clockwise \u00b7 mount 3",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 15
+          }
+        },
+        {
+          "frame": 15976,
+          "stage": "Tighten clockwise \u00b7 mount 3",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 15
+          }
+        },
+        {
+          "frame": 15977,
+          "stage": "Tighten clockwise \u00b7 mount 3",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 15
+          }
+        },
+        {
+          "frame": 15978,
+          "stage": "Tighten clockwise \u00b7 mount 3",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 14
+          }
+        },
+        {
+          "frame": 15979,
+          "stage": "Tighten clockwise \u00b7 mount 3",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 14
+          }
+        },
+        {
+          "frame": 15980,
+          "stage": "Tighten clockwise \u00b7 mount 3",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 9
+          }
+        },
+        {
+          "frame": 15981,
+          "stage": "Tighten clockwise \u00b7 mount 3",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 5
+          }
+        },
+        {
+          "frame": 15989,
+          "stage": "Reset ratchet \u00b7 mount 3",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 10
+          }
+        },
+        {
+          "frame": 15990,
+          "stage": "Reset ratchet \u00b7 mount 3",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 11
+          }
+        },
+        {
+          "frame": 15991,
+          "stage": "Reset ratchet \u00b7 mount 3",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 11
+          }
+        },
+        {
+          "frame": 15992,
+          "stage": "Reset ratchet \u00b7 mount 3",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 11
+          }
+        },
+        {
+          "frame": 15993,
+          "stage": "Reset ratchet \u00b7 mount 3",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 11
+          }
+        },
+        {
+          "frame": 15994,
+          "stage": "Reset ratchet \u00b7 mount 3",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 11
+          }
+        },
+        {
+          "frame": 15995,
+          "stage": "Reset ratchet \u00b7 mount 3",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 11
+          }
+        },
+        {
+          "frame": 15996,
+          "stage": "Reset ratchet \u00b7 mount 3",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 9
+          }
+        },
+        {
+          "frame": 16001,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 12
+          }
+        },
+        {
+          "frame": 16002,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 22
+          }
+        },
+        {
+          "frame": 16003,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 31
+          }
+        },
+        {
+          "frame": 16004,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 33
+          }
+        },
+        {
+          "frame": 16005,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 33
+          }
+        },
+        {
+          "frame": 16006,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 33
+          }
+        },
+        {
+          "frame": 16007,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 33
+          }
+        },
+        {
+          "frame": 16008,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 30
+          }
+        },
+        {
+          "frame": 16009,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 30
+          }
+        },
+        {
+          "frame": 16010,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 30
+          }
+        },
+        {
+          "frame": 16011,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 30
+          }
+        },
+        {
+          "frame": 16012,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 30
+          }
+        },
+        {
+          "frame": 16013,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 28
+          }
+        },
+        {
+          "frame": 16014,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 28
+          }
+        },
+        {
+          "frame": 16015,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 28
+          }
+        },
+        {
+          "frame": 16016,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 28
+          }
+        },
+        {
+          "frame": 16017,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 27
+          }
+        },
+        {
+          "frame": 16018,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 26
+          }
+        },
+        {
+          "frame": 16019,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 26
+          }
+        },
+        {
+          "frame": 16020,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 24
+          }
+        },
+        {
+          "frame": 16021,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 23
+          }
+        },
+        {
+          "frame": 16022,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 28
+          }
+        },
+        {
+          "frame": 16023,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 28
+          }
+        },
+        {
+          "frame": 16024,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 28
+          }
+        },
+        {
+          "frame": 16025,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 28
+          }
+        },
+        {
+          "frame": 16026,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 28
+          }
+        },
+        {
+          "frame": 16027,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 28
+          }
+        },
+        {
+          "frame": 16028,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 28
+          }
+        },
+        {
+          "frame": 16029,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 22
+          }
+        },
+        {
+          "frame": 16030,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 19
+          }
+        },
+        {
+          "frame": 16031,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 19
+          }
+        },
+        {
+          "frame": 16032,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 19
+          }
+        },
+        {
+          "frame": 16033,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 21
+          }
+        },
+        {
+          "frame": 16034,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 23
+          }
+        },
+        {
+          "frame": 16035,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 26
+          }
+        },
+        {
+          "frame": 16036,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 28
+          }
+        },
+        {
+          "frame": 16037,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 28
+          }
+        },
+        {
+          "frame": 16038,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 24
+          }
+        },
+        {
+          "frame": 16039,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 23
+          }
+        },
+        {
+          "frame": 16040,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 19
+          }
+        },
+        {
+          "frame": 16041,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 19
+          }
+        },
+        {
+          "frame": 16042,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 21
+          }
+        },
+        {
+          "frame": 16043,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 25
+          }
+        },
+        {
+          "frame": 16044,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 25
+          }
+        },
+        {
+          "frame": 16045,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 28
+          }
+        },
+        {
+          "frame": 16046,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 24
+          }
+        },
+        {
+          "frame": 16047,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 24
+          }
+        },
+        {
+          "frame": 16048,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 21
+          }
+        },
+        {
+          "frame": 16049,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 21
+          }
+        },
+        {
+          "frame": 16050,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 23
+          }
+        },
+        {
+          "frame": 16051,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 23
+          }
+        },
+        {
+          "frame": 16052,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 24
+          }
+        },
+        {
+          "frame": 16053,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 24
+          }
+        },
+        {
+          "frame": 16054,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 24
+          }
+        },
+        {
+          "frame": 16055,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 22
+          }
+        },
+        {
+          "frame": 16056,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 20
+          }
+        },
+        {
+          "frame": 16057,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 20
+          }
+        },
+        {
+          "frame": 16058,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 20
+          }
+        },
+        {
+          "frame": 16059,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 20
+          }
+        },
+        {
+          "frame": 16060,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 20
+          }
+        },
+        {
+          "frame": 16061,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 20
+          }
+        },
+        {
+          "frame": 16062,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 20
+          }
+        },
+        {
+          "frame": 16063,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 16
+          }
+        },
+        {
+          "frame": 16064,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 15
+          }
+        },
+        {
+          "frame": 16065,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 15
+          }
+        },
+        {
+          "frame": 16066,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 15
+          }
+        },
+        {
+          "frame": 16067,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 15
+          }
+        },
+        {
+          "frame": 16068,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 16
+          }
+        },
+        {
+          "frame": 16069,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 16
+          }
+        },
+        {
+          "frame": 16070,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 18
+          }
+        },
+        {
+          "frame": 16071,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 15
+          }
+        },
+        {
+          "frame": 16072,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 10
+          }
+        },
+        {
+          "frame": 16073,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 10
+          }
+        },
+        {
+          "frame": 16074,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 10
+          }
+        },
+        {
+          "frame": 16075,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 10
+          }
+        },
+        {
+          "frame": 16076,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 11
+          }
+        },
+        {
+          "frame": 16077,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 11
+          }
+        },
+        {
+          "frame": 16078,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 11
+          }
+        },
+        {
+          "frame": 16079,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 10
+          }
+        },
+        {
+          "frame": 16080,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 8
+          }
+        },
+        {
+          "frame": 16081,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 9
+          }
+        },
+        {
+          "frame": 16082,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 9
+          }
+        },
+        {
+          "frame": 16083,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 9
+          }
+        },
+        {
+          "frame": 16084,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 9
+          }
+        },
+        {
+          "frame": 16085,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 8
+          }
+        },
+        {
+          "frame": 16086,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 8
+          }
+        },
+        {
+          "frame": 16087,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 8
+          }
+        },
+        {
+          "frame": 16088,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 7
+          }
+        },
+        {
+          "frame": 16089,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 7
+          }
+        },
+        {
+          "frame": 16090,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 5
+          }
+        },
+        {
+          "frame": 16091,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 5
+          }
+        },
+        {
+          "frame": 16092,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 4
+          }
+        },
+        {
+          "frame": 16093,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 2
+          }
+        },
+        {
+          "frame": 16120,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 2
+          }
+        },
+        {
+          "frame": 16121,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 3
+          }
+        },
+        {
+          "frame": 16122,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 5
+          }
+        },
+        {
+          "frame": 16123,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 5
+          }
+        },
+        {
+          "frame": 16124,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 5
+          }
+        },
+        {
+          "frame": 16125,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 5
+          }
+        },
+        {
+          "frame": 16126,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 3
+          }
+        },
+        {
+          "frame": 16181,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 2
+          }
+        },
+        {
+          "frame": 16182,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 2
+          }
+        },
+        {
+          "frame": 16183,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 2
+          }
+        },
+        {
+          "frame": 16184,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 3
+          }
+        },
+        {
+          "frame": 16185,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 3
+          }
+        },
+        {
+          "frame": 16186,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 3
+          }
+        },
+        {
+          "frame": 16187,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 3
+          }
+        },
+        {
+          "frame": 16188,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 3
+          }
+        },
+        {
+          "frame": 16189,
+          "stage": "Withdraw driver",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 3
+          }
+        },
+        {
+          "frame": 16190,
+          "stage": "Release supported part",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 3
+          }
+        },
+        {
+          "frame": 16191,
+          "stage": "Release supported part",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 3
+          }
+        },
+        {
+          "frame": 16192,
+          "stage": "Release supported part",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 3
+          }
+        },
+        {
+          "frame": 16193,
+          "stage": "Release supported part",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 3
+          }
+        },
+        {
+          "frame": 16194,
+          "stage": "Release supported part",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 3
+          }
+        },
+        {
+          "frame": 16195,
+          "stage": "Release supported part",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 3
+          }
+        },
+        {
+          "frame": 16196,
+          "stage": "Release supported part",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 3
+          }
+        },
+        {
+          "frame": 16197,
+          "stage": "Release supported part",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 3
+          }
+        },
+        {
+          "frame": 16198,
+          "stage": "Release supported part",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 3
+          }
+        },
+        {
+          "frame": 16199,
+          "stage": "Release supported part",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 3
+          }
+        },
+        {
+          "frame": 16200,
+          "stage": "Release supported part",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 10
+          }
+        },
+        {
+          "frame": 16201,
+          "stage": "Release supported part",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 10
+          }
+        },
+        {
+          "frame": 16202,
+          "stage": "Release supported part",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 10
+          }
+        },
+        {
+          "frame": 16203,
+          "stage": "Release supported part",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 10
+          }
+        },
+        {
+          "frame": 16204,
+          "stage": "Release supported part",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 10
+          }
+        },
+        {
+          "frame": 16205,
+          "stage": "Release supported part",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 10
+          }
+        },
+        {
+          "frame": 16206,
+          "stage": "Release supported part",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 10
+          }
+        },
+        {
+          "frame": 16207,
+          "stage": "Release supported part",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 10
+          }
+        },
+        {
+          "frame": 16208,
+          "stage": "Release supported part",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 10
+          }
+        },
+        {
+          "frame": 16209,
+          "stage": "Release supported part",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 8
+          }
+        },
+        {
+          "frame": 16210,
+          "stage": "Stand before walking",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 15
+          }
+        },
+        {
+          "frame": 16211,
+          "stage": "Stand before walking",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 15
+          }
+        },
+        {
+          "frame": 16212,
+          "stage": "Stand before walking",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 14
+          }
+        },
+        {
+          "frame": 16213,
+          "stage": "Stand before walking",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 15
+          }
+        },
+        {
+          "frame": 16214,
+          "stage": "Stand before walking",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 14
+          }
+        },
+        {
+          "frame": 16215,
+          "stage": "Stand before walking",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 14
+          }
+        },
+        {
+          "frame": 16216,
+          "stage": "Stand before walking",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 11
+          }
+        },
+        {
+          "frame": 16217,
+          "stage": "Stand before walking",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 10
+          }
+        },
+        {
+          "frame": 16218,
+          "stage": "Stand before walking",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 7
+          }
+        },
+        {
+          "frame": 16219,
+          "stage": "Stand before walking",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / leg_3": 5
+          }
+        }
+      ],
+      "sha256": {
+        "trajectory.json": "42fe2dc36fa453549d4f457953223d95bfe335803ffea7708f7cc4c33cd83a3f",
+        "controls.npz": "5a935cb9ccf29aa8c11852735456fabe9c7e10705b6c348d7f34c2b664000ee2",
+        "reference.npz": "a704d236f5b9f1ed68e6aec80b4ac9d3172502b100ee987727560176ad6990f0",
+        "contact-regions.json": "7857c4d72e6129a62299ad9dee9697f5ef09369e400fd1ed5317c6ab58a32592"
+      }
+    },
+    "shelf": {
+      "source_poses_checked": 31964,
+      "all_native_surface_checks_passed": false,
+      "body_or_clothing_failure_poses": 209,
+      "floor_failure_poses": 0,
+      "leg_or_shoe_object_intersection_poses": 0,
+      "leg_or_shoe_object_intersections": [],
+      "hand_intersection_poses": 15540,
+      "maximum_bone_length_error_m": 1.5154803005498763e-06,
+      "maximum_foot_target_error_m": 9.945917758365715e-05,
+      "maximum_wrist_target_error_m": 0.0029982654673387835,
+      "rendered_pose_comparisons": 3245,
+      "expected_rendered_pose_comparisons": 3245,
+      "maximum_render_vs_dense_joint_difference_m": 0.0,
+      "render_vs_dense_mismatches": [],
+      "native_stance": {
+        "final_foot_offsets_m": [
+          [
+            0.0,
+            -0.08,
+            0.0
+          ],
+          [
+            0.0,
+            -0.08,
+            0.0
+          ]
+        ],
+        "maximum_added_translation_per_frame_while_planted_m": 0.0,
+        "maximum_added_spine_flexion_rad": 0.14
+      },
+      "failures": [
+        {
+          "frame": 9639,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 14
+          }
+        },
+        {
+          "frame": 9640,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 58
+          }
+        },
+        {
+          "frame": 9641,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 103
+          }
+        },
+        {
+          "frame": 9642,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 142
+          }
+        },
+        {
+          "frame": 9643,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 158
+          }
+        },
+        {
+          "frame": 9644,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 134
+          }
+        },
+        {
+          "frame": 9645,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 110
+          }
+        },
+        {
+          "frame": 9646,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 151
+          }
+        },
+        {
+          "frame": 9647,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 169
+          }
+        },
+        {
+          "frame": 9648,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 172
+          }
+        },
+        {
+          "frame": 9649,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 169
+          }
+        },
+        {
+          "frame": 9650,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 168
+          }
+        },
+        {
+          "frame": 9651,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 164
+          }
+        },
+        {
+          "frame": 9652,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 163
+          }
+        },
+        {
+          "frame": 9653,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 157
+          }
+        },
+        {
+          "frame": 9654,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 133
+          }
+        },
+        {
+          "frame": 9655,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 95
+          }
+        },
+        {
+          "frame": 9656,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 100
+          }
+        },
+        {
+          "frame": 9657,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 109
+          }
+        },
+        {
+          "frame": 9658,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 140
+          }
+        },
+        {
+          "frame": 9659,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 183
+          }
+        },
+        {
+          "frame": 9660,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 178
+          }
+        },
+        {
+          "frame": 9661,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 124
+          }
+        },
+        {
+          "frame": 9662,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 105
+          }
+        },
+        {
+          "frame": 9663,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 99
+          }
+        },
+        {
+          "frame": 9664,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 99
+          }
+        },
+        {
+          "frame": 9665,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 88
+          }
+        },
+        {
+          "frame": 9666,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 85
+          }
+        },
+        {
+          "frame": 9667,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 80
+          }
+        },
+        {
+          "frame": 9668,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 68
+          }
+        },
+        {
+          "frame": 9669,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 56
+          }
+        },
+        {
+          "frame": 9670,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 48
+          }
+        },
+        {
+          "frame": 9671,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 35
+          }
+        },
+        {
+          "frame": 9672,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 21
+          }
+        },
+        {
+          "frame": 9673,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 10
+          }
+        },
+        {
+          "frame": 9683,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 19
+          }
+        },
+        {
+          "frame": 9684,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 62
+          }
+        },
+        {
+          "frame": 9685,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 124
+          }
+        },
+        {
+          "frame": 9686,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 209
+          }
+        },
+        {
+          "frame": 9687,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 169
+          }
+        },
+        {
+          "frame": 9688,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 150
+          }
+        },
+        {
+          "frame": 9689,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 150
+          }
+        },
+        {
+          "frame": 9690,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 138
+          }
+        },
+        {
+          "frame": 9691,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 137
+          }
+        },
+        {
+          "frame": 9692,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 143
+          }
+        },
+        {
+          "frame": 9693,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 148
+          }
+        },
+        {
+          "frame": 9694,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 156
+          }
+        },
+        {
+          "frame": 9695,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 167
+          }
+        },
+        {
+          "frame": 9696,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 168
+          }
+        },
+        {
+          "frame": 9697,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 176
+          }
+        },
+        {
+          "frame": 9698,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 174
+          }
+        },
+        {
+          "frame": 9699,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 172
+          }
+        },
+        {
+          "frame": 9700,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 199
+          }
+        },
+        {
+          "frame": 9701,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 204
+          }
+        },
+        {
+          "frame": 9702,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 205
+          }
+        },
+        {
+          "frame": 9703,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 175
+          }
+        },
+        {
+          "frame": 9704,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 174
+          }
+        },
+        {
+          "frame": 9705,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 168
+          }
+        },
+        {
+          "frame": 9706,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 160
+          }
+        },
+        {
+          "frame": 9707,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 160
+          }
+        },
+        {
+          "frame": 9708,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 158
+          }
+        },
+        {
+          "frame": 9709,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 159
+          }
+        },
+        {
+          "frame": 9710,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 166
+          }
+        },
+        {
+          "frame": 9711,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 202
+          }
+        },
+        {
+          "frame": 9712,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 208
+          }
+        },
+        {
+          "frame": 9713,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 201
+          }
+        },
+        {
+          "frame": 9714,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 207
+          }
+        },
+        {
+          "frame": 9715,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 211
+          }
+        },
+        {
+          "frame": 9716,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 197
+          }
+        },
+        {
+          "frame": 9717,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 204
+          }
+        },
+        {
+          "frame": 9718,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 201
+          }
+        },
+        {
+          "frame": 9719,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 202
+          }
+        },
+        {
+          "frame": 9720,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 202
+          }
+        },
+        {
+          "frame": 9721,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 203
+          }
+        },
+        {
+          "frame": 9722,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 237
+          }
+        },
+        {
+          "frame": 9723,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 214
+          }
+        },
+        {
+          "frame": 9724,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 238
+          }
+        },
+        {
+          "frame": 9725,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 225
+          }
+        },
+        {
+          "frame": 9726,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 221
+          }
+        },
+        {
+          "frame": 9727,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 220
+          }
+        },
+        {
+          "frame": 9728,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 224
+          }
+        },
+        {
+          "frame": 9729,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 237
+          }
+        },
+        {
+          "frame": 9730,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 245
+          }
+        },
+        {
+          "frame": 9731,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 242
+          }
+        },
+        {
+          "frame": 9732,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 228
+          }
+        },
+        {
+          "frame": 9733,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 210
+          }
+        },
+        {
+          "frame": 9734,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 224
+          }
+        },
+        {
+          "frame": 9735,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 237
+          }
+        },
+        {
+          "frame": 9736,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 239
+          }
+        },
+        {
+          "frame": 9737,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 190
+          }
+        },
+        {
+          "frame": 9738,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 176
+          }
+        },
+        {
+          "frame": 9739,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 181
+          }
+        },
+        {
+          "frame": 9740,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 188
+          }
+        },
+        {
+          "frame": 9741,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 186
+          }
+        },
+        {
+          "frame": 9742,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 175
+          }
+        },
+        {
+          "frame": 9743,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 160
+          }
+        },
+        {
+          "frame": 9744,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 137
+          }
+        },
+        {
+          "frame": 9745,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 130
+          }
+        },
+        {
+          "frame": 9746,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 126
+          }
+        },
+        {
+          "frame": 9747,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 128
+          }
+        },
+        {
+          "frame": 9748,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 135
+          }
+        },
+        {
+          "frame": 9749,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 166
+          }
+        },
+        {
+          "frame": 9750,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 220
+          }
+        },
+        {
+          "frame": 9751,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 178
+          }
+        },
+        {
+          "frame": 9752,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 134
+          }
+        },
+        {
+          "frame": 9753,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 124
+          }
+        },
+        {
+          "frame": 9754,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 133
+          }
+        },
+        {
+          "frame": 9755,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 162
+          }
+        },
+        {
+          "frame": 9756,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 80
+          }
+        },
+        {
+          "frame": 9757,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 35
+          }
+        },
+        {
+          "frame": 9758,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 10
+          }
+        },
+        {
+          "frame": 15844,
+          "stage": "Orient shelf 1 for carrying",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_1": 1
+          }
+        },
+        {
+          "frame": 15845,
+          "stage": "Orient shelf 1 for carrying",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_1": 4
+          }
+        },
+        {
+          "frame": 15846,
+          "stage": "Orient shelf 1 for carrying",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_1": 17
+          }
+        },
+        {
+          "frame": 15847,
+          "stage": "Orient shelf 1 for carrying",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_1": 29
+          }
+        },
+        {
+          "frame": 15848,
+          "stage": "Orient shelf 1 for carrying",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_1": 62
+          }
+        },
+        {
+          "frame": 15849,
+          "stage": "Orient shelf 1 for carrying",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_1": 58
+          }
+        },
+        {
+          "frame": 15850,
+          "stage": "Orient shelf 1 for carrying",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_1": 58
+          }
+        },
+        {
+          "frame": 15851,
+          "stage": "Orient shelf 1 for carrying",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_1": 54
+          }
+        },
+        {
+          "frame": 15852,
+          "stage": "Orient shelf 1 for carrying",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_1": 57
+          }
+        },
+        {
+          "frame": 15853,
+          "stage": "Orient shelf 1 for carrying",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_1": 71
+          }
+        },
+        {
+          "frame": 15854,
+          "stage": "Orient shelf 1 for carrying",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_1": 34
+          }
+        },
+        {
+          "frame": 15855,
+          "stage": "Orient shelf 1 for carrying",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_1": 8
+          }
+        },
+        {
+          "frame": 15856,
+          "stage": "Orient shelf 1 for carrying",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_1": 7
+          }
+        },
+        {
+          "frame": 15857,
+          "stage": "Orient shelf 1 for carrying",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_1": 10
+          }
+        },
+        {
+          "frame": 15858,
+          "stage": "Orient shelf 1 for carrying",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_1": 20
+          }
+        },
+        {
+          "frame": 15859,
+          "stage": "Orient shelf 1 for carrying",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_1": 22
+          }
+        },
+        {
+          "frame": 15860,
+          "stage": "Orient shelf 1 for carrying",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_1": 23
+          }
+        },
+        {
+          "frame": 15861,
+          "stage": "Orient shelf 1 for carrying",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_1": 25
+          }
+        },
+        {
+          "frame": 15862,
+          "stage": "Orient shelf 1 for carrying",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_1": 26
+          }
+        },
+        {
+          "frame": 15863,
+          "stage": "Orient shelf 1 for carrying",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_1": 29
+          }
+        },
+        {
+          "frame": 15864,
+          "stage": "Orient shelf 1 for carrying",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_1": 18
+          }
+        },
+        {
+          "frame": 15865,
+          "stage": "Orient shelf 1 for carrying",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_1": 29
+          }
+        },
+        {
+          "frame": 15866,
+          "stage": "Orient shelf 1 for carrying",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_1": 42
+          }
+        },
+        {
+          "frame": 15867,
+          "stage": "Orient shelf 1 for carrying",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_1": 62
+          }
+        },
+        {
+          "frame": 15868,
+          "stage": "Orient shelf 1 for carrying",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_1": 65
+          }
+        },
+        {
+          "frame": 15869,
+          "stage": "Orient shelf 1 for carrying",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_1": 55
+          }
+        },
+        {
+          "frame": 15870,
+          "stage": "Orient shelf 1 for carrying",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_1": 37
+          }
+        },
+        {
+          "frame": 15871,
+          "stage": "Orient shelf 1 for carrying",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_1": 21
+          }
+        },
+        {
+          "frame": 15872,
+          "stage": "Orient shelf 1 for carrying",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_1": 10
+          }
+        },
+        {
+          "frame": 15874,
+          "stage": "Orient shelf 1 for carrying",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_1": 6
+          }
+        },
+        {
+          "frame": 15875,
+          "stage": "Orient shelf 1 for carrying",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_1": 3
+          }
+        },
+        {
+          "frame": 16235,
+          "stage": "Carry shelf 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_1": 4
+          }
+        },
+        {
+          "frame": 16236,
+          "stage": "Carry shelf 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_1": 21
+          }
+        },
+        {
+          "frame": 16255,
+          "stage": "Carry shelf 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_1": 5
+          }
+        },
+        {
+          "frame": 16256,
+          "stage": "Carry shelf 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_1": 15
+          }
+        },
+        {
+          "frame": 16257,
+          "stage": "Carry shelf 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_1": 25
+          }
+        },
+        {
+          "frame": 16258,
+          "stage": "Carry shelf 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_1": 50
+          }
+        },
+        {
+          "frame": 16259,
+          "stage": "Carry shelf 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_1": 64
+          }
+        },
+        {
+          "frame": 16260,
+          "stage": "Carry shelf 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_1": 66
+          }
+        },
+        {
+          "frame": 16261,
+          "stage": "Carry shelf 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_1": 61
+          }
+        },
+        {
+          "frame": 16262,
+          "stage": "Carry shelf 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_1": 51
+          }
+        },
+        {
+          "frame": 16263,
+          "stage": "Carry shelf 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_1": 46
+          }
+        },
+        {
+          "frame": 16264,
+          "stage": "Carry shelf 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_1": 49
+          }
+        },
+        {
+          "frame": 16265,
+          "stage": "Carry shelf 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_1": 53
+          }
+        },
+        {
+          "frame": 16266,
+          "stage": "Carry shelf 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_1": 45
+          }
+        },
+        {
+          "frame": 16267,
+          "stage": "Carry shelf 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_1": 43
+          }
+        },
+        {
+          "frame": 16268,
+          "stage": "Carry shelf 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_1": 33
+          }
+        },
+        {
+          "frame": 16269,
+          "stage": "Carry shelf 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_1": 24
+          }
+        },
+        {
+          "frame": 16270,
+          "stage": "Carry shelf 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_1": 20
+          }
+        },
+        {
+          "frame": 16271,
+          "stage": "Carry shelf 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_1": 21
+          }
+        },
+        {
+          "frame": 16272,
+          "stage": "Carry shelf 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_1": 19
+          }
+        },
+        {
+          "frame": 16273,
+          "stage": "Carry shelf 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_1": 15
+          }
+        },
+        {
+          "frame": 16274,
+          "stage": "Carry shelf 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_1": 7
+          }
+        },
+        {
+          "frame": 16275,
+          "stage": "Carry shelf 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_1": 2
+          }
+        },
+        {
+          "frame": 16919,
+          "stage": "Carry shelf 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_1": 122
+          }
+        },
+        {
+          "frame": 16920,
+          "stage": "Carry shelf 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_1": 131
+          }
+        },
+        {
+          "frame": 16921,
+          "stage": "Carry shelf 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_1": 121
+          }
+        },
+        {
+          "frame": 16922,
+          "stage": "Carry shelf 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_1": 64
+          }
+        },
+        {
+          "frame": 16923,
+          "stage": "Carry shelf 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_1": 53
+          }
+        },
+        {
+          "frame": 16924,
+          "stage": "Carry shelf 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_1": 59
+          }
+        },
+        {
+          "frame": 16925,
+          "stage": "Carry shelf 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_1": 74
+          }
+        },
+        {
+          "frame": 16926,
+          "stage": "Carry shelf 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_1": 101
+          }
+        },
+        {
+          "frame": 16927,
+          "stage": "Carry shelf 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_1": 101
+          }
+        },
+        {
+          "frame": 16928,
+          "stage": "Carry shelf 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_1": 84
+          }
+        },
+        {
+          "frame": 16929,
+          "stage": "Carry shelf 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_1": 65
+          }
+        },
+        {
+          "frame": 16930,
+          "stage": "Carry shelf 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_1": 55
+          }
+        },
+        {
+          "frame": 16931,
+          "stage": "Carry shelf 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_1": 49
+          }
+        },
+        {
+          "frame": 16932,
+          "stage": "Carry shelf 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_1": 42
+          }
+        },
+        {
+          "frame": 16933,
+          "stage": "Carry shelf 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_1": 40
+          }
+        },
+        {
+          "frame": 16934,
+          "stage": "Carry shelf 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_1": 36
+          }
+        },
+        {
+          "frame": 16935,
+          "stage": "Carry shelf 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_1": 34
+          }
+        },
+        {
+          "frame": 16936,
+          "stage": "Carry shelf 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_1": 28
+          }
+        },
+        {
+          "frame": 16937,
+          "stage": "Carry shelf 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_1": 24
+          }
+        },
+        {
+          "frame": 16938,
+          "stage": "Carry shelf 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_1": 11
+          }
+        },
+        {
+          "frame": 24096,
+          "stage": "Carry shelf 2",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_2": 7
+          }
+        },
+        {
+          "frame": 24097,
+          "stage": "Carry shelf 2",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_2": 48
+          }
+        },
+        {
+          "frame": 24098,
+          "stage": "Carry shelf 2",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_2": 36
+          }
+        },
+        {
+          "frame": 24347,
+          "stage": "Carry shelf 2",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_2": 4
+          }
+        },
+        {
+          "frame": 24348,
+          "stage": "Carry shelf 2",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_2": 34
+          }
+        },
+        {
+          "frame": 24349,
+          "stage": "Carry shelf 2",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_2": 40
+          }
+        },
+        {
+          "frame": 24350,
+          "stage": "Carry shelf 2",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_2": 41
+          }
+        },
+        {
+          "frame": 24351,
+          "stage": "Carry shelf 2",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_2": 41
+          }
+        },
+        {
+          "frame": 24352,
+          "stage": "Carry shelf 2",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_2": 44
+          }
+        },
+        {
+          "frame": 24353,
+          "stage": "Carry shelf 2",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_2": 41
+          }
+        },
+        {
+          "frame": 24354,
+          "stage": "Carry shelf 2",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_2": 37
+          }
+        },
+        {
+          "frame": 24355,
+          "stage": "Carry shelf 2",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_2": 35
+          }
+        },
+        {
+          "frame": 24356,
+          "stage": "Carry shelf 2",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_2": 33
+          }
+        },
+        {
+          "frame": 24357,
+          "stage": "Carry shelf 2",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_2": 28
+          }
+        },
+        {
+          "frame": 24358,
+          "stage": "Carry shelf 2",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_2": 21
+          }
+        },
+        {
+          "frame": 24359,
+          "stage": "Carry shelf 2",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_2": 16
+          }
+        },
+        {
+          "frame": 24360,
+          "stage": "Carry shelf 2",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_2": 12
+          }
+        },
+        {
+          "frame": 24361,
+          "stage": "Carry shelf 2",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_2": 4
+          }
+        },
+        {
+          "frame": 24368,
+          "stage": "Carry shelf 2",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_2": 3
+          }
+        },
+        {
+          "frame": 24369,
+          "stage": "Carry shelf 2",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_2": 13
+          }
+        },
+        {
+          "frame": 24370,
+          "stage": "Carry shelf 2",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_2": 37
+          }
+        },
+        {
+          "frame": 24371,
+          "stage": "Carry shelf 2",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_2": 67
+          }
+        },
+        {
+          "frame": 24372,
+          "stage": "Carry shelf 2",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_2": 78
+          }
+        },
+        {
+          "frame": 24373,
+          "stage": "Carry shelf 2",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_2": 34
+          }
+        }
+      ],
+      "sha256": {
+        "trajectory.json": "8c932bd360744f722c2a834b69f426bc92283114e0c00ab728540514a362cf1d",
+        "controls.npz": "084595fd8306fd73981af5d4df7307d8a114679ec11c28f165eb0aa823af54e5",
+        "reference.npz": "07317c7257c9cc45428528dc92cb2118c3cd6305577363436a8573cb0d0b3121",
+        "contact-regions.json": "96c231768ac52b80e8bd02a8667ff96e4b73307072ccc8e1051425035a4aaa9c"
+      }
+    }
+  },
+  "character_sha256": "5effe62f50106c0c1462e8631e44de8361811d0877ac49d0ffef565bcd27ce53",
+  "implementation_sha256": {
+    "aggregate_evidence.py": "773dbac84b42b91fd451563dcdc1a4db90ca72c4b0442ae5ffdc18497b63de91",
+    "aggregate_full_evidence.py": "da2bbd80e856303361a823875ee8581044e443f6bd6a06b3d3ea97c66e0d6674",
+    "audit_full_motion.py": "66d1018848f20628fa1b5cf4257f9ac4fb0e76820c5830e515a90262aed0fc0b",
+    "blender_args.py": "8d977164fd6c89497df5f219bb83120dc05853409534ce440de1a0e1a2c4e105",
+    "build_character.py": "3a223cf98a83fc9064383514c03816e0109ae8d9d0807fa510940f2f9b3b4810",
+    "classify_contacts.py": "4cced487d52265e27c627a63ad691d2cc687c5e104bc347d56b653428d5798f0",
+    "encode_videos.py": "a76da0f4361f5fdae548f34fc807325f73738edae266f77c7f72ddb89cac97e9",
+    "export_character.py": "d011e270d5ee6f8356b712498c397e7e4b90c10d4c7be9ee384226a68e3115aa",
+    "motion_inputs.py": "00c912438d4c2f852fbdc5db4b94feee00b78f371a5b8be8f410fc61432b1189",
+    "native_audit.py": "d863d77defe8dccf7266d424f8d355c50114d700ed4a3b22906b247c341ab1f8",
+    "native_rig.py": "b3063c6ca4aff11a25c087ab5fb1d8aec5a90d5df9b1ddcb998f0b0b23b9a88d",
+    "native_stance.py": "fe49eb8a51afbf3f0b90b6c7640a179ddc1cc03e43ea360d7c5b771d31c39842",
+    "plan_clearance.py": "bc47a4c5a4e90fe4f9c955a8f1757834e1253fa29dd2ccf0bbcb404b63ea3312",
+    "prepare_reference.py": "6f15bafe0a9f5ccee9014fbfbe5a8b857495453d7215d494552f3227f8ee83c2",
+    "prepare_video_jobs.py": "8bba7067448ab9d6248aa9f2ecf313a73e45cb4efd46d334a6867c22cfc9f0c6",
+    "preview.py": "c5471b4fa5b535e39486afdd594a035f09750b07883da703fa1f0fe9dc47db6b",
+    "probe_motion.py": "f3d4895936eb1badcd65f292976b2c7db7e7d0b8094c1dc3dac70d2998038aef",
+    "render_all.py": "d760a7e9280dd04b6c0dd3d0a486f960b5de9d0d25113db1064ca0c1cf3afa89",
+    "render_video.py": "4dfcb3a9d35c74d4499239266cd26eb43efe2a45a9fccc9e75bfc77b145109f4",
+    "setup_runtime.py": "8036cd01610d6138305ff91611172b72d38e035de7461acf67e5e00cb4e24d0c",
+    "stage_gallery.py": "3685c09b18cfb10db5ce786f6057f11aa30f756e7c0fe260438d6ad01efff042"
+  }
+}

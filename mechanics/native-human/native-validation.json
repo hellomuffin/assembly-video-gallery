@@ -7,7 +7,7 @@
       "source_trajectory_sha256": "42fe2dc36fa453549d4f457953223d95bfe335803ffea7708f7cc4c33cd83a3f",
       "source_furniture_task_complete": true,
       "source_physics_passed": true,
-      "rendered_source_poses_checked": 2482,
+      "rendered_source_poses_checked": 2481,
       "native_mesh_samples_passed": false,
       "failed_sample_count": 22,
       "hand_contact_intersection_sample_count": 1666,
@@ -391,28 +391,283 @@
           "foot_target_error_m": 4.485957887386563e-05
         }
       ]
+    },
+    "shelf": {
+      "source_frames": 31964,
+      "source_trajectory_sha256": "8c932bd360744f722c2a834b69f426bc92283114e0c00ab728540514a362cf1d",
+      "source_furniture_task_complete": true,
+      "source_physics_passed": true,
+      "rendered_source_poses_checked": 3245,
+      "native_mesh_samples_passed": false,
+      "failed_sample_count": 14,
+      "hand_contact_intersection_sample_count": 1970,
+      "maximum_bone_length_error_m": 1.4885045859586164e-06,
+      "maximum_foot_target_error_m": 9.908618930117447e-05,
+      "maximum_wrist_target_error_m": 0.0029647796563845893,
+      "minimum_surface_height_m": -9.750080104820036e-05,
+      "failures": [
+        {
+          "frame": 9648,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 172
+          },
+          "floor_minimum_m": {
+            "Human.shoes05": -2.914703293888099e-06,
+            "Human.male_casualsuit02": 0.08036798314597193,
+            "Human": 0.16082420331824404
+          },
+          "wrist_target_error_m": 0.0010836898466042282,
+          "foot_target_error_m": 2.5846174700149257e-05
+        },
+        {
+          "frame": 9664,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 99
+          },
+          "floor_minimum_m": {
+            "Human.shoes05": 6.737013340252229e-08,
+            "Human.male_casualsuit02": 0.08044651525517271,
+            "Human": 0.16914250199076336
+          },
+          "wrist_target_error_m": 1.5542989743239043e-06,
+          "foot_target_error_m": 3.8834610293536005e-05
+        },
+        {
+          "frame": 9696,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 168
+          },
+          "floor_minimum_m": {
+            "Human.shoes05": -1.1797183888440088e-05,
+            "Human.male_casualsuit02": 0.07938584209556399,
+            "Human": 0.15847442314694363
+          },
+          "wrist_target_error_m": 1.2949443449020643e-06,
+          "foot_target_error_m": 1.1437126585822014e-05
+        },
+        {
+          "frame": 9712,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 208
+          },
+          "floor_minimum_m": {
+            "Human.shoes05": 2.7102619287733276e-08,
+            "Human.male_casualsuit02": 0.08062226282543017,
+            "Human": 0.16438095652556273
+          },
+          "wrist_target_error_m": 0.0020815754731754676,
+          "foot_target_error_m": 5.029820687792289e-06
+        },
+        {
+          "frame": 9728,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 224
+          },
+          "floor_minimum_m": {
+            "Human.shoes05": 2.1150814870363188e-07,
+            "Human.male_casualsuit02": 0.08148171103081053,
+            "Human": 0.16818272039360455
+          },
+          "wrist_target_error_m": 0.0014582649961842865,
+          "foot_target_error_m": 8.895693706856553e-06
+        },
+        {
+          "frame": 9744,
+          "stage": "Carry shelf 0",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_0": 137
+          },
+          "floor_minimum_m": {
+            "Human.shoes05": -4.309188033332911e-06,
+            "Human.male_casualsuit02": 0.08164161672859777,
+            "Human": 0.16817225804587965
+          },
+          "wrist_target_error_m": 1.3799472931373388e-06,
+          "foot_target_error_m": 6.938262923264851e-06
+        },
+        {
+          "frame": 15856,
+          "stage": "Orient shelf 1 for carrying",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_1": 7
+          },
+          "floor_minimum_m": {
+            "Human.shoes05": -6.762593108800008e-05,
+            "Human.male_casualsuit02": 0.07958354789926436,
+            "Human": 0.15824853030031316
+          },
+          "wrist_target_error_m": 6.316756723590685e-07,
+          "foot_target_error_m": 6.855356579141213e-05
+        },
+        {
+          "frame": 15872,
+          "stage": "Orient shelf 1 for carrying",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_1": 10
+          },
+          "floor_minimum_m": {
+            "Human.shoes05": -4.976163800385347e-05,
+            "Human.male_casualsuit02": 0.07956732643652181,
+            "Human": 0.15995850237653064
+          },
+          "wrist_target_error_m": 8.805565060790871e-07,
+          "foot_target_error_m": 4.985498538702766e-05
+        },
+        {
+          "frame": 16256,
+          "stage": "Carry shelf 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_1": 15
+          },
+          "floor_minimum_m": {
+            "Human.shoes05": -7.209110580719269e-07,
+            "Human.male_casualsuit02": 0.08123322683657108,
+            "Human": 0.1629581497541719
+          },
+          "wrist_target_error_m": 1.5960249708886009e-06,
+          "foot_target_error_m": 7.309550298124422e-06
+        },
+        {
+          "frame": 16272,
+          "stage": "Carry shelf 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_1": 19
+          },
+          "floor_minimum_m": {
+            "Human.shoes05": -2.259533697368532e-07,
+            "Human.male_casualsuit02": 0.08178649275793037,
+            "Human": 0.16827360759424237
+          },
+          "wrist_target_error_m": 1.4516400421212479e-06,
+          "foot_target_error_m": 1.8027126260067175e-05
+        },
+        {
+          "frame": 16928,
+          "stage": "Carry shelf 1",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_1": 84
+          },
+          "floor_minimum_m": {
+            "Human.shoes05": -1.8361815325995678e-06,
+            "Human.male_casualsuit02": 0.08155036693800177,
+            "Human": 0.16876189287309418
+          },
+          "wrist_target_error_m": 1.9184919523514606e-06,
+          "foot_target_error_m": 1.5823447579979336e-05
+        },
+        {
+          "frame": 24096,
+          "stage": "Carry shelf 2",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_2": 7
+          },
+          "floor_minimum_m": {
+            "Human.shoes05": -1.830724005669193e-05,
+            "Human.male_casualsuit02": 0.07997209832363925,
+            "Human": 0.1599178488527726
+          },
+          "wrist_target_error_m": 1.441644027524927e-06,
+          "foot_target_error_m": 1.767938628868835e-05
+        },
+        {
+          "frame": 24352,
+          "stage": "Carry shelf 2",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_2": 44
+          },
+          "floor_minimum_m": {
+            "Human.shoes05": 1.7344380154327155e-07,
+            "Human.male_casualsuit02": 0.08112556692017137,
+            "Human": 0.1689975795389108
+          },
+          "wrist_target_error_m": 1.4948768858891074e-06,
+          "foot_target_error_m": 1.2560052557137743e-05
+        },
+        {
+          "frame": 24368,
+          "stage": "Carry shelf 2",
+          "reasons": [
+            "body_or_clothing_intersection"
+          ],
+          "body_intersections": {
+            "Human.male_casualsuit02 / shelf_2": 3
+          },
+          "floor_minimum_m": {
+            "Human.shoes05": -7.022492107808254e-06,
+            "Human.male_casualsuit02": 0.08191152850728023,
+            "Human": 0.1681010130183781
+          },
+          "wrist_target_error_m": 1.3621324160130548e-06,
+          "foot_target_error_m": 6.517691083334548e-06
+        }
+      ]
     }
   },
   "implementation_sha256": {
-    "aggregate_evidence.py": "6b0588c8248a7f3b75e28934b2a48a15a9d9812aac0ca1bc4e3bfe61cb158cbf",
+    "aggregate_evidence.py": "773dbac84b42b91fd451563dcdc1a4db90ca72c4b0442ae5ffdc18497b63de91",
+    "aggregate_full_evidence.py": "da2bbd80e856303361a823875ee8581044e443f6bd6a06b3d3ea97c66e0d6674",
     "audit_full_motion.py": "66d1018848f20628fa1b5cf4257f9ac4fb0e76820c5830e515a90262aed0fc0b",
     "blender_args.py": "8d977164fd6c89497df5f219bb83120dc05853409534ce440de1a0e1a2c4e105",
     "build_character.py": "3a223cf98a83fc9064383514c03816e0109ae8d9d0807fa510940f2f9b3b4810",
     "classify_contacts.py": "49f88388bad92aa8fa59af26bdc45f7e3a2e9dc1c6921b632a191866e60f9834",
-    "encode_videos.py": "2c176e1cd5b2b67665ff503ba40bcc3fff32d7b3813510d700e0f81883aeffd1",
+    "encode_videos.py": "a76da0f4361f5fdae548f34fc807325f73738edae266f77c7f72ddb89cac97e9",
     "export_character.py": "d011e270d5ee6f8356b712498c397e7e4b90c10d4c7be9ee384226a68e3115aa",
     "motion_inputs.py": "00c912438d4c2f852fbdc5db4b94feee00b78f371a5b8be8f410fc61432b1189",
     "native_audit.py": "d863d77defe8dccf7266d424f8d355c50114d700ed4a3b22906b247c341ab1f8",
-    "native_rig.py": "9aee3f180a609b69f216626a17ed174d7f5e6a6de06529da1277ba9724d94184",
-    "native_stance.py": "0eb0d95c3b9d0e06312e5e66297cac7c938a6f277691813a0365cf0349806801",
+    "native_rig.py": "b3063c6ca4aff11a25c087ab5fb1d8aec5a90d5df9b1ddcb998f0b0b23b9a88d",
+    "native_stance.py": "fe49eb8a51afbf3f0b90b6c7640a179ddc1cc03e43ea360d7c5b771d31c39842",
     "plan_clearance.py": "bc47a4c5a4e90fe4f9c955a8f1757834e1253fa29dd2ccf0bbcb404b63ea3312",
     "prepare_reference.py": "6f15bafe0a9f5ccee9014fbfbe5a8b857495453d7215d494552f3227f8ee83c2",
-    "prepare_video_jobs.py": "f94cc9740762143d7a75d44fb352731e1056868bf65414ea8b29d08d527a0d36",
+    "prepare_video_jobs.py": "8bba7067448ab9d6248aa9f2ecf313a73e45cb4efd46d334a6867c22cfc9f0c6",
     "preview.py": "c5471b4fa5b535e39486afdd594a035f09750b07883da703fa1f0fe9dc47db6b",
     "probe_motion.py": "f3d4895936eb1badcd65f292976b2c7db7e7d0b8094c1dc3dac70d2998038aef",
     "render_all.py": "d760a7e9280dd04b6c0dd3d0a486f960b5de9d0d25113db1064ca0c1cf3afa89",
     "render_video.py": "4dfcb3a9d35c74d4499239266cd26eb43efe2a45a9fccc9e75bfc77b145109f4",
     "setup_runtime.py": "8036cd01610d6138305ff91611172b72d38e035de7461acf67e5e00cb4e24d0c",
-    "stage_gallery.py": "fb23b760efcad3da6b5a3c64899d0d9787d65ead95124526aefd65691d9dd005"
+    "stage_gallery.py": "3685c09b18cfb10db5ce786f6057f11aa30f756e7c0fe260438d6ad01efff042"
   }
 }
