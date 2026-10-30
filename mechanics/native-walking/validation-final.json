@@ -1,0 +1,70 @@
+{
+  "scope": "Native evaluated skin/clothing/shoes versus frozen furniture, fixtures and floor at 120 Hz; opposite legs/shoes below pelvis minus 12 cm. No trained RL policy, human dynamics, full-body self-collision or continuous-time certificate.",
+  "tasks": {
+    "table": {
+      "body_and_gait_checks_passed": true,
+      "poses_checked": 629,
+      "audit_fps": 120,
+      "duration_seconds": 5.233333333333333,
+      "route_length_m": 2.673642521847775,
+      "source_reference_cycle_seconds": 1.266616,
+      "reference_cycle_count": 3.5,
+      "body_or_clothing_failure_poses": 0,
+      "opposite_leg_failure_poses": 0,
+      "hand_intersection_poses": 0,
+      "floor_failure_poses": 0,
+      "maximum_native_bone_length_error_m": 1.3170287531033552e-06,
+      "maximum_foot_target_error_m": 6.74166805304887e-05,
+      "maximum_planted_pivot_error_m": 2.8708443504730445e-05,
+      "maximum_footprint_translation_per_support_frame_m": 1.0686039787712995e-09,
+      "maximum_knee_plane_error_m": 0.0003183146809566473,
+      "knee_flexion_degrees_range": [
+        11.27281240479951,
+        86.1283730663918
+      ],
+      "maximum_heading_rate_degrees_s": 100.11685793072948,
+      "maximum_root_speed_m_s": 0.6556274094687222,
+      "maximum_footprint_speed_m_s": 1.704485392187626,
+      "failures": [],
+      "motion_sha256": "ae50db8600a1596338644a3737dc816074024f5c606708d08c523da04519f641"
+    },
+    "shelf": {
+      "body_and_gait_checks_passed": true,
+      "poses_checked": 831,
+      "audit_fps": 120,
+      "duration_seconds": 6.916666666666667,
+      "route_length_m": 3.6144901073571836,
+      "source_reference_cycle_seconds": 1.266616,
+      "reference_cycle_count": 4.5,
+      "body_or_clothing_failure_poses": 0,
+      "opposite_leg_failure_poses": 0,
+      "hand_intersection_poses": 0,
+      "floor_failure_poses": 0,
+      "maximum_native_bone_length_error_m": 1.3433554806707715e-06,
+      "maximum_foot_target_error_m": 6.550149784946052e-05,
+      "maximum_planted_pivot_error_m": 2.8953146969158888e-05,
+      "maximum_footprint_translation_per_support_frame_m": 1.071042437933723e-09,
+      "maximum_knee_plane_error_m": 0.0003201825096127853,
+      "knee_flexion_degrees_range": [
+        11.27281240479951,
+        86.55116177601559
+      ],
+      "maximum_heading_rate_degrees_s": 100.16952914190797,
+      "maximum_root_speed_m_s": 0.6716927992653096,
+      "maximum_footprint_speed_m_s": 1.7105133909037542,
+      "failures": [],
+      "motion_sha256": "9be24e06f034e76377e0e214447936f65747ccc51b0f41c864909c88174e1907"
+    }
+  },
+  "implementation_sha256": {
+    "aggregate_walk.py": "b73b5d613fb2da81213cd3ed0178562f87b6e19b006c0e01ace971bec2de4cae",
+    "encode_walk.py": "f5a498b117527ca4199414f765193f353245980f103dc11af4323e692e307e90",
+    "footstep_retarget.py": "707c74da5c3ddb9f33dd4d9c011cb82e537d612ece8ce47b0fa7dd4795fa85f1",
+    "gait_audit.py": "bc8b0f983330ae668c1225e180843b0c1f41775295d23f1a94981b8061fc2c5b",
+    "mocap_rig.py": "d326e60a1b427dbb5ce0b3a46164f06cc80d8cecb5f8fd61e6c8536f83f766db",
+    "prepare_walk.py": "30b7f00bb446ee1639a024b657e167dcba1ca83ea35f6147865cf2bb60a441e9",
+    "reference_motion.py": "08d532d86ec45305e02078385558f8ffc09c0c8046de16ff9e0a51525d81431e",
+    "render_walk.py": "6948cd5912b0ab86ab43c5c8ae3adb1c77f08b5be13cb359ea6b1a165075d3e8",
+    "run_walk.py": "88c42bcb3766b56ac77d9bae8cdb9509c4b03522617ca104c4b141fbed1a9bad"
+  }
+}
